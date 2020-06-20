@@ -1,49 +1,26 @@
-import Head from 'next/head'
+import Head from 'next/head';
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Create Next App</title>
+        <title>SOSchool || Home</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <h1 className="title">
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+          Welcome to <div className="blue"><b className="red">SO</b><b className="purple">S</b>chool</div>
         </h1>
 
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+          We help your children push through the challenges in CoViD-19's wake
         </p>
 
         <div className="grid">
           <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className="card"
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <h3>Contact &rarr;</h3>
+            <p>Get in tough with us so we can allocate your child(ren) the right tutor for them</p>
           </a>
         </div>
       </main>
@@ -54,12 +31,24 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
+          © 2020 SOSchool
         </a>
+        <p>Made by <a href="https://nicobachner.com">Nico Bachner</a></p>
       </footer>
 
       <style jsx>{`
+        .red {
+          color: red;
+        }
+
+        .purple {
+          color: purple;
+        }
+
+        .blue {
+          color: blue;
+        }
+
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
@@ -80,21 +69,9 @@ export default function Home() {
 
         footer {
           width: 100%;
-          height: 100px;
+          padding: 20px;
           border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-
-        footer img {
-          margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
+          text-align: center;
         }
 
         a {
@@ -102,7 +79,7 @@ export default function Home() {
           text-decoration: none;
         }
 
-        .title a {
+        p a {
           color: #0070f3;
           text-decoration: none;
         }
@@ -126,7 +103,7 @@ export default function Home() {
 
         .description {
           line-height: 1.5;
-          font-size: 1.5rem;
+          font-size: 2rem;
         }
 
         code {
