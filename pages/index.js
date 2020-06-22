@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import { Navbar, Nav, Button, Form, Col, Row, InputGroup, FormControl } from 'react-bootstrap'
 
 export default function Home() {
   return (
@@ -9,25 +10,45 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
-          Welcome to <div className="blue"><b className="red">SO</b><b className="purple">S</b>chool</div>
-        </h1>
+        <section id="home">
+          <h1 className="title">
+            Welcome to <div className="test">SOSchool</div>
+          </h1>
 
-        <p className="description">
-          We help your children push through the challenges in CoViD-19's wake
-        </p>
+          <p className="description">
+            We help your children push through the challenges in CoViD-19's wake
+          </p>
 
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Contact &rarr;</h3>
-            <p>Get in tough with us so we can allocate your child(ren) the right tutor for them</p>
-          </a>
-        </div>
+          <Button variant="outline-primary" size="lg" href="#contact">Contact us</Button>
+        </section>
+        
+        <section id="contact">
+          <h2>Contact us</h2>
+
+          <Form>
+          <Form.Label>Get in touch so we can allocate your child(ren) a tutor right away</Form.Label>
+            <Form.Row>
+              <Col>
+                <Form.Group controlId="formBasicEmail">
+                  <Form.Control type="email" placeholder="Enter email" />
+                  <Form.Text className="text-muted">
+                    We'll never share your email with anyone else.
+                  </Form.Text>
+                </Form.Group>
+              </Col>
+              <Col xs={2}>
+                <Button variant="primary" type="submit">
+                  Submit
+                </Button>
+              </Col>
+            </Form.Row>
+          </Form>
+        </section>
       </main>
 
       <footer>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://soschool.site"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -38,27 +59,38 @@ export default function Home() {
 
       <style jsx>{`
         .red {
-          color: red;
+          color: #dd0000;
         }
 
         .purple {
-          color: purple;
+          color: #770077;
         }
 
         .blue {
-          color: blue;
+          color: #0000dd;
+        }
+
+        #home {
+          height: 100vh;
+        }
+
+        #contact {
+          height: 100vh;
+        }
+
+        .test {
+          font-size: 72px;
+          background: linear-gradient(.25turn, red 0 28%, blue 45% 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
         }
 
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
         }
 
-        main {
+        section {
           padding: 5rem 0;
           flex: 1;
           display: flex;
@@ -84,12 +116,6 @@ export default function Home() {
           text-decoration: none;
         }
 
-        .title a:hover,
-        .title a:focus,
-        .title a:active {
-          text-decoration: underline;
-        }
-
         .title {
           margin: 0;
           line-height: 1.15;
@@ -102,68 +128,9 @@ export default function Home() {
         }
 
         .description {
-          line-height: 1.5;
+          padding: 50px;
+          line-height: 1.2;
           font-size: 2rem;
-        }
-
-        code {
-          background: #fafafa;
-          border-radius: 5px;
-          padding: 0.75rem;
-          font-size: 1.1rem;
-          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
-        }
-
-        .grid {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          flex-wrap: wrap;
-
-          max-width: 800px;
-          margin-top: 3rem;
-        }
-
-        .card {
-          margin: 1rem;
-          flex-basis: 45%;
-          padding: 1.5rem;
-          text-align: left;
-          color: inherit;
-          text-decoration: none;
-          border: 1px solid #eaeaea;
-          border-radius: 10px;
-          transition: color 0.15s ease, border-color 0.15s ease;
-        }
-
-        .card:hover,
-        .card:focus,
-        .card:active {
-          color: #0070f3;
-          border-color: #0070f3;
-        }
-
-        .card h3 {
-          margin: 0 0 1rem 0;
-          font-size: 1.5rem;
-        }
-
-        .card p {
-          margin: 0;
-          font-size: 1.25rem;
-          line-height: 1.5;
-        }
-
-        .logo {
-          height: 1em;
-        }
-
-        @media (max-width: 600px) {
-          .grid {
-            width: 100%;
-            flex-direction: column;
-          }
         }
       `}</style>
 
