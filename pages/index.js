@@ -5,8 +5,16 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>SOSchool || Home</title>
-        <link rel="icon" href="/favicon.ico" />
+        <title>SOSchool Luxembourg</title>
+
+        <meta charset='utf-8' />
+        <meta http-equiv='X-UA-Compatible' content='IE=edge' />
+        <meta name='viewport' content='width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no' />
+        <meta name='description' content='Free tutoring service for primary school children affected by COVID-19' />
+        <meta name='keywords' content='Keywords' />
+
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#ffffff"/>
       </Head>
 
       <main>
@@ -62,10 +70,6 @@ export default function Home() {
           color: #dd0000;
         }
 
-        .purple {
-          color: #770077;
-        }
-
         .blue {
           color: #0000dd;
         }
@@ -80,7 +84,7 @@ export default function Home() {
 
         .test {
           font-size: 72px;
-          background: linear-gradient(.25turn, red 0 28%, blue 45% 100%);
+          background: linear-gradient(.25turn, red 0 28%, blue 48% 100%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
         }
@@ -135,8 +139,7 @@ export default function Home() {
       `}</style>
 
       <style jsx global>{`
-        html,
-        body {
+        html, body {
           padding: 0;
           margin: 0;
           font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
