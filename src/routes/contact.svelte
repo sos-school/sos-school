@@ -4,7 +4,4 @@
 
 <h1>Get in touch</h1>
 
-<ul>
-	<li><a href = "mailto:soschool@protonmail.com">By Email</a></li>
-</ul>
-
+<h2><a href = "mailto:soschool@protonmail.com">By Email</a></h2>

@@ -4,7 +4,7 @@
 
 <style>
 	nav {
-		border-bottom: 1px solid rgba(255,62,0,0.1);
+		border-bottom: 1px solid rgba(90, 80, 76, 0.1);
 		font-weight: 300;
 		padding: 0 1em;
 	}
@@ -24,6 +24,7 @@
 	li {
 		display: block;
 		float: left;
+		margin: 0 0.4em;
 	}
 
 	[aria-current] {
@@ -45,6 +46,10 @@
 		padding: 1em 0.5em;
 		display: block;
 	}
+
+	img {
+		margin-right: 1em;
+	}
 </style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -54,23 +59,24 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto ml-auto">
+    <ul class="navbar-nav mr-auto">
       <li class="nav-item">
         <a rel=prefetch aria-current="{segment === undefined ? 'page' : undefined}" class="nav-link" href=".">Home</a>
       </li>
       <li class="nav-item">
-        <a rel=prefetch aria-current="{segment === 'about' ? 'page' : undefined}" class="nav-link" href="/about">About Us</a>
+        <a rel=prefetch aria-current="{segment === 'about' ? 'page' : undefined}" class="nav-link" href="/about">About</a>
       </li>
 			<li class="nav-item">
-        <a rel=prefetch aria-current="{segment === 'team' ? 'page' : undefined}" class="nav-link" href="/team">Meet our Team</a>
-      </li>
-			<li class="nav-item">
-        <a rel=prefetch aria-current="{segment === 'support' ? 'page' : undefined}" class="nav-link" href="/support">Support Us</a>
+        <a rel=prefetch aria-current="{segment === 'team' ? 'page' : undefined}" class="nav-link" href="/team">Team</a>
       </li>
 			<li class="nav-item">
         <a rel=prefetch aria-current="{segment === 'contact' ? 'page' : undefined}" class="nav-link" href="/contact">Contact</a>
       </li>
+			<li class="nav-item">
+        <a rel=prefetch aria-current="{segment === 'help' ? 'page' : undefined}" class="nav-link" href="/help">Help</a>
+      </li>
 		</ul>
-		<a href="mailto:soschool@protonmail.com"><button class="btn btn-outline-primary">Contact Us</button></a>
+		<a rel=prefetch href="/support"><button class="btn btn-outline-primary">Support Us</button></a>
+		<a href="mailto:soschool@protonmail.com"><button class="btn btn-primary">Contact Us</button></a>
   </div>
 </nav>
