@@ -47,13 +47,14 @@
 		display: block;
 	}
 
-	img {
-		margin-right: 1em;
+	nav p {
+		padding: 0 2em;
 	}
 </style>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <a href="."><img alt='SOSchool logo' src='logo.png' width="40" height="40" loading="lazy"></a>
+	<p>v0.2.2</p>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>

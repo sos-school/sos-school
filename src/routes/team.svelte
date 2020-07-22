@@ -4,6 +4,4 @@
 
 <h1>Our team</h1>
 
-<ul>
-	<li></li>
-</ul>
+<img src="successkid.jpg" alt="">
