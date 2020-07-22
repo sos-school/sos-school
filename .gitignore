@@ -3,6 +3,7 @@
 /node_modules
 /cypress
 /__sapper__
+/dev
 
 # misc
 .DS_Store
