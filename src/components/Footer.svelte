@@ -13,9 +13,8 @@
     <a href=".">Home</a> /
     <a href="/about">About</a> /
     <a href="/team">Team</a> /
-    <a href="/contact">Contact</a> /
-    <a href="/help">Help</a> /
-    <a href="/support">Support Us</a>
+    <a href="https://www.notion.so/Help-Center-5902baf5cf9d4936a8f71fd7ed1d7bf1">Help Center</a> /
+    <a href="mailto:soschool@protonmail.com">Contact</a>
   </p>
-  <p>Copyright 2020 SOSchool a.s.b.l.</p>
+  <p>&copy 2020 SOSchool a.s.b.l.</p>
 </footer>

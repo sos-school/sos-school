@@ -54,7 +54,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <a href="."><img alt='SOSchool logo' src='logo.png' width="40" height="40" loading="lazy"></a>
-	<p>v0.2.2</p>
+	<p>v0.3.1</p>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -70,14 +70,8 @@
 			<li class="nav-item">
         <a rel=prefetch aria-current="{segment === 'team' ? 'page' : undefined}" class="nav-link" href="/team">Team</a>
       </li>
-			<li class="nav-item">
-        <a rel=prefetch aria-current="{segment === 'contact' ? 'page' : undefined}" class="nav-link" href="/contact">Contact</a>
-      </li>
-			<li class="nav-item">
-        <a rel=prefetch aria-current="{segment === 'help' ? 'page' : undefined}" class="nav-link" href="/help">Help</a>
-      </li>
 		</ul>
-		<a rel=prefetch href="/support"><button class="btn btn-outline-primary">Support Us</button></a>
+		<a rel=prefetch href="https://www.notion.so/Help-Center-5902baf5cf9d4936a8f71fd7ed1d7bf1"><button class="btn btn-outline-primary">Help Center</button></a>
 		<a href="mailto:soschool@protonmail.com"><button class="btn btn-primary">Contact Us</button></a>
   </div>
 </nav>
