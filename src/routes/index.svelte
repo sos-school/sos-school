@@ -13,12 +13,13 @@
 	}
 
 	h2 {
-		font-size: 1.5em;
+		font-size: 1.2em;
 		text-align: center;
 	}
 
 	span {
     background: linear-gradient(.25turn, red 0 28%, blue 48% 100%);
+		background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	}
