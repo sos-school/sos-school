@@ -9,9 +9,9 @@ sections:
   label: Website content
   create: all
   match: "*"
-  new_doc_ext: ".svelte"
-upload_dir: uploads
-public_path: "/uploads"
+  new_doc_ext: svelte
+upload_dir: static
+public_path: "/static"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
