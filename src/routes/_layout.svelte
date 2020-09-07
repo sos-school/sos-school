@@ -24,7 +24,7 @@
 <Nav {segment}/>
 
 <main>
-	<slot></slot>
+	<slot />
 </main>
 
 <Footer />

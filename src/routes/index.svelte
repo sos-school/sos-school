@@ -1,8 +1,7 @@
 <style>
 	img {
 		display: block;
-		width: 100%;
-		max-width: 400px;
+		height: 40vh;
 		text-align: center;
 		margin: 0 auto;
 	}
