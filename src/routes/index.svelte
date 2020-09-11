@@ -30,6 +30,6 @@
 
 <h1>Welcome to <span>SOSchool</span></h1>
 
-<img alt='SOSchool logo' src='logo.png'>
+<img alt='SOSchool logo' src='logo.webp'>
 
 <h2>We help your children catch up with their studies following the covid-19 lockdown</h2>
