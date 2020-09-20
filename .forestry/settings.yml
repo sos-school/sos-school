@@ -5,6 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: static
+  label: Images, etc.
+  create: all
+  match: "**/*"
+  exclude: ".css"
+- type: directory
   path: src/routes
   label: Website content
   create: all
