@@ -12,7 +12,7 @@ sections:
   exclude: ".css"
 - type: directory
   path: src/routes
-  label: Website content
+  label: Pages
   create: all
   match: "*"
   new_doc_ext: svelte
