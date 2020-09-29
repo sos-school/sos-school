@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <meta name="description" content="
+            We help High School Students in Luxembourg guide Primary School Children through the Luxembourgish school system and share their personal experience with them.
+        ">
+        <meta name="keywords" content="sos-school, soschool, luxembourg, caritas, croix rouge">
+        <meta name="author" content="SOSchool Luxembourg">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="icon" type="image/png" href="images/logo/favicon.png">
+        <link rel="canonical" href="https://sos-school.org" />
+
+        <title>SOS School Luxembourg</title>
+
+        <style>
+            @media (prefers-color-scheme: light) {
+                html {
+                    --content: #333333;
+                    --theme: #ffffff;
+                    --highlight: #6666dd;
+                }
+                .dark-mode {
+                    --content: white;
+                    --theme: #000000;
+                    --highlight: #dd6666;
+                }
+            }
+            @media (prefers-color-scheme: dark) {
+                html {
+                    --content: white;
+                    --theme: #000000;
+                    --highlight: #dd6666;
+                }
+                .light-mode {
+                    --content: #333333;
+                    --theme: #ffffff;
+                    --highlight: #6666dd;
+                }
+            }
+            html {
+                font-family: Georgia;
+                color: var(--content);
+                background-color: var(--theme);
+                line-height: 1;
+            }
+            a {
+                color: var(--highlight);
+            }
+            nav {
+                width: fit-content;
+                margin: 1rem auto;
+            }
+            button {
+                display: block;
+                font-size: 2rem;
+                border: none;
+                padding: 0;
+                background-color: transparent;
+                text-align: center;
+                margin: auto;
+            }
+            nav a {
+                text-decoration: none;
+                font-size: 2rem;
+            }
+            h1, h2 {
+                text-align: center;
+                font-weight: normal;
+            }
+            h1 {
+                font-size: 4rem;
+            }
+            h2 {
+                font-size: 2.5rem;
+            }
+            header img {
+                display: block;
+                width: 80vw;
+                max-width: 30rem;
+                margin: 0 auto;
+            }
+            main {
+                margin: 6rem 1rem;
+            }
+            section {
+                max-width: 60rem;
+                line-height: 1.5;
+                margin: 0 auto;
+            }
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+                grid-gap: 1rem;
+            }
+            img {
+                width: 100%;
+            }
+            footer {
+                border-top: 1px solid var(--content);
+                text-align: center;
+                padding: 1rem;
+                margin-bottom: 0;
+            }
+        </style>
+        <script>
+            function themeToggle() {
+                document.documentElement.classList.toggle("dark-mode");
+                document.documentElement.classList.toggle("light-mode");
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="https://sos-school.org">🇬🇧</a>
+                <a href="https://sos-school.org/lu">🇱🇺</a>
+                <a href="https://sos-school.org/de">🇩🇪</a>
+                <a href="https://sos-school.org/fr">🇫🇷</a>
+            </nav>
+            <button onclick="themeToggle()">🌗</button>
+            <h1>SOS School Luxembourg</h1>
+            <img src="images/logo/logo.webp" alt="SOS School Logo">
+        </header>
+        <main>
+            <section id="about">
+                <h2>About Our Initiative</h2>
+                <p>Expedita possimus ratione voluptates quidem quos quam cupiditate. Repellat quia incidunt rerum voluptatem. Ex est sint dolor. Impedit exercitationem necessitatibus provident eligendi consectetur. Qui corrupti dolor provident numquam. Reiciendis doloremque est aliquid quas vel numquam ut. Quia recusandae nihil occaecati exercitationem voluptatem. Impedit excepturi quas iure velit voluptas deleniti saepe. Sapiente facilis possimus quia occaecati blanditiis nemo laudantium soluta. Deleniti distinctio voluptatibus sequi id adipisci. Voluptate et optio eum incidunt eveniet eaque assumenda non. Beatae consectetur dolor quasi ipsum vero. Odio similique odit commodi earum atque. Dolorem accusantium dicta molestiae quis ut cum. Perferendis nihil dolorem porro. Consectetur quis est ratione corporis quia nostrum facere. Dolor alias quis ut tenetur.</p>
+                <p>Autem voluptatem sunt dolor voluptates ab dolor. Aut voluptatem ipsum et officiis odit ipsa incidunt voluptas. Et et ut nulla sed sed ut recusandae. Sed nam quisquam aperiam quo placeat commodi. Vitae et earum voluptate provident dicta sit atque. Expedita nam magnam quia temporibus non. Error facere ut delectus neque autem similique. Nostrum sed dolor alias. </p> 
+                <p>Et dolorem officia hic et quo. Dolor et magni ut aut eaque ut aliquam voluptas. Explicabo et ut exercitationem dolorum est blanditiis officia. Sed incidunt aut molestiae aliquid similique fuga error. Omnis temporibus vel voluptas qui. Alias qui esse voluptatem eaque in dolore. Consequatur rerum et eius nesciunt quasi distinctio qui beatae. Quo dolorem odit deserunt necessitatibus temporibus. Tempore voluptatem blanditiis sequi quo. Consequuntur ut saepe ut sed et.</p>
+            </section>
+            <section id="members">
+                <h2>Members</h2>
+                <div class="grid">
+                    <img src="images/successkid.jpg" alt="Kid">
+                    <img src="images/successkid.jpg" alt="Kid">
+                    <img src="images/successkid.jpg" alt="Kid">
+                    <img src="images/successkid.jpg" alt="Kid">
+                    <img src="images/successkid.jpg" alt="Kid">
+                    <img src="images/successkid.jpg" alt="Kid">
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li>By <a href="mailto:soschool@protonmail.com?subject=Hello&body=What%20can%20we%20help%20you%20with?" target="_blank" rel="noopener noreferrer">Email</a></li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>
+                <a href=".">Home</a> /
+                <a href="#about">About</a> /
+                <a href="#members">Members</a> /
+                <a href="#contact">Contact</a>
+            </p>
+            <p>Made by <a href="https://nicob.dev">Nico Bachner</a> in 2020</p>
+        </footer>
+    </body>
+</html>
