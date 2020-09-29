@@ -1,10 +1,13 @@
-# SOSchool
+# SOSchool Luxembourg
 
 [sos school](https://www.sos-school.org) is an organisation whose mission is to help High School Students in Luxembourg guide Primary School Children through the Luxembourgish school system and share their personal experience with them.
 
-### Working together with Caritas
+### Collaboration with other non-profit organisations
 
-We are partnered with [Caritas](https://www.caritas.lu), a non-profit supporting anyone in need of it in Luxembourg
+- [Caritas](https://www.caritas.lu)\
+Caritas is a non-profit supporting anyone in need of it in Luxembourg. We have them to thank for getting us in contact with our initial families.
+
+- Croix Rouge (Luxembourg Red Cross)
 
 ### Feedback
 
@@ -12,4 +15,4 @@ We are yet in the early stages of getting our project up and running, hence feed
 
 ### Contact
 
-[email](mailto:soschool@protonmail.com)
+- [email](mailto:soschool@protonmail.com)
