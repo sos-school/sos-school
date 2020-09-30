@@ -3,126 +3,17 @@
     <head>
         <meta charset="UTF-8">
 
-        <meta name="description" content="
-            Nous sommes une équipe de jeunes âgés de 16 à 19 ans. Nous sommes tous sympas, motivés et dynamiques. Nous aimons apprendre et partager notre intérêt pour les études.
-        ">
-        <meta name="keywords" content="sos-school, soschool, luxembourg, caritas, croix rouge">
+        <meta name="description" content="Nous sommes une équipe de jeunes âgés de 16 à 19 ans. Nous sommes tous sympas, motivés et dynamiques. Nous aimons apprendre et partager notre intérêt pour les études.">
+        <meta name="keywords" content="sos, school, école, luxembourg, sos-school, soschool, caritas, croix rouge">
         <meta name="author" content="SOSchool Luxembourg">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="icon" type="image/png" href="images/logo/favicon.png">
         <link rel="canonical" href="https://sos-school.org" />
+        <link rel="stylesheet" href="../global.css">
+        <script src="../theme-toggle.js"></script>
 
         <title>SOS School Luxembourg</title>
-
-        <style>
-            @media (prefers-color-scheme: light) {
-                html {
-                    --content: #333333;
-                    --theme: #ffffff;
-                    --highlight: #6666dd;
-                }
-                .dark-mode {
-                    --content: white;
-                    --theme: #000000;
-                    --highlight: #dd6666;
-                }
-            }
-            @media (prefers-color-scheme: dark) {
-                html {
-                    --content: white;
-                    --theme: #000000;
-                    --highlight: #dd6666;
-                }
-                .light-mode {
-                    --content: #333333;
-                    --theme: #ffffff;
-                    --highlight: #6666dd;
-                }
-            }
-            html {
-                font-family: Georgia;
-                color: var(--content);
-                background-color: var(--theme);
-                line-height: 1;
-                font-size: large;
-                margin: 0 1rem;
-            }
-            a {
-                color: var(--highlight);
-            }
-            h1, h2 {
-                text-align: center;
-            }
-            nav {
-                width: fit-content;
-                margin: 2rem auto;
-            }
-            button {
-                display: block;
-                font-size: 2rem;
-                border: none;
-                padding: 0;
-                background-color: transparent;
-                text-align: center;
-                margin: auto;
-            }
-            nav p {
-                font-size: 2rem;
-                margin: 0;
-            }
-            nav p a {
-                text-decoration: none;
-            }
-            .title {
-                margin: 2rem 0 4rem;
-            }
-            .title h1 {
-                font-size: 5rem;
-                margin: 0;
-            }
-            .title-caption {
-                margin: 0;
-                font-size: 2rem;
-                text-align: center;
-                transform: rotate(-10deg);
-                color: var(--highlight);
-            }
-            header img {
-                display: block;
-                width: 90vw;
-                max-width: 26rem;
-                margin: 0 auto;
-            }
-            h2 {
-                font-size: 2rem;
-            }
-            section {
-                max-width: 56rem;
-                line-height: 1.5;
-                margin: 0 auto;
-            }
-            .grid {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-                grid-gap: 1rem;
-            }
-            img {
-                width: 100%;
-            }
-            footer {
-                border-top: 1px solid var(--content);
-                text-align: center;
-                padding: 1rem;
-                margin-top: 8rem;
-            }
-        </style>
-        <script>
-            function themeToggle() {
-                document.documentElement.classList.toggle("dark-mode");
-                document.documentElement.classList.toggle("light-mode");
-            }
-        </script>
     </head>
     <body>
         <header>
