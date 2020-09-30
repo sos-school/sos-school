@@ -88,7 +88,7 @@ section {
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-gap: 1rem;
 }
-img {
+.grid img {
     width: 100%;
 }
 footer {
@@ -96,4 +96,12 @@ footer {
     text-align: center;
     padding: 1rem;
     margin-top: 8rem;
+}
+
+/* Vercel Footer */
+#vercel a {
+    text-decoration: none;
+}
+#vercel-icon {
+    height: 0.8rem;
 }
