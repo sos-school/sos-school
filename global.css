@@ -67,7 +67,6 @@ nav p a {
     margin: 0;
     font-size: 2rem;
     text-align: center;
-    transform: rotate(-10deg);
     color: var(--highlight);
 }
 header img {
