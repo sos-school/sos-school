@@ -2,32 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-
         <meta name="description" content="We help High School Students in Luxembourg guide Primary School Children through the Luxembourgish school system and share their personal experience with them.">
         <meta name="keywords" content="sos, school, sos-school, soschool, luxembourg, caritas, croix rouge">
         <meta name="author" content="SOSchool Luxembourg">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" type="image/png" href="images/logo/favicon.png">
+        <link rel="icon" type="image/png" href="images/favicon.png">
         <link rel="canonical" href="https://sos-school.org" />
         <link rel="stylesheet" href="global.css">
-        <script src="scripts/theme-toggle.js"></script>
+
+        <script type="text/javascript" src="add-content.js"></script>
+        <script type="text/javascript" src="content/members.js"></script>
 
         <title>SOS School Luxembourg</title>
     </head>
-    <body>
+    <body onload="addMembers()">
         <header>
             <nav>
-                <p>
-                    <a href="https://sos-school.org/de">🇩🇪</a> |
-                    <a href="https://sos-school.org">🇬🇧</a> |
-                    <a href="https://sos-school.org/fr">🇫🇷</a>
-                </p>
+                <a href="https://sos-school.org/de">🇩🇪</a>
+                <a href="https://sos-school.org">🇬🇧</a>
+                <a href="https://sos-school.org/fr">🇫🇷</a>
             </nav>
-            <button onclick="themeToggle()">🌗</button>
             <div class="title">
                 <h1>SOS School</h1>
-                <p class="title-caption">Luxembourg</p>
+                <p>Luxembourg</p>
             </div>
         </header>
         <main>
@@ -40,38 +38,31 @@
                 <h3>Our teaching methods</h3>
                 <p>Because we are convinced that curiosity and self-confidence are very important to succeed in getting good marks, we are committed to building confidence and encouraging them. We invest ourselves fully and help the children every week, at their home, not only by identifying areas of progress, by doing substantive revisions, but we also assist them in their homework. When possible, we get in touch with the teacher to develop a work plan. We also speak regularly with parents to involve them in their child's progress.</p>
                 <h3>Price</h3>
-                <p>It's 100% free! Everything we do, we do as a service to society, without monetary incentive</p>
+                <p>It's 100% free! Everything we do, we do as a service to society, without monetary incentive.</p>
             </section>
             <section id="members">
                 <h2>Our Volunteers</h2>
-                <div class="grid">
-                    <img src="images/logo/logo.webp" alt="SOS School Logo">
-                    <img src="images/logo/logo.webp" alt="SOS School Logo">
-                    <img src="images/logo/logo.webp" alt="SOS School Logo">
-                    <img src="images/logo/logo.webp" alt="SOS School Logo">
-                    <img src="images/logo/logo.webp" alt="SOS School Logo">
-                    <img src="images/logo/logo.webp" alt="SOS School Logo">
-                </div>
+                <div id="members-content" class="grid"></div>
             </section>
             <section id="contact">
-                <h2>Get in contact with us</h2>
-                <ul>
-                    <li>By <a href="mailto:soschool@protonmail.com?subject=Hello&body=What%20can%20we%20help%20you%20with?" target="_blank" rel="noopener noreferrer">Email</a></li>
-                </ul>
+                <h2>Get in Contact with us</h2>
+                <h3>By Email</h3>
+                <a href="mailto:soschool@protonmail.com" target="_blank" rel="noopener noreferrer">soschool@protonmail.com</a>
             </section>
         </main>
+        <hr>
         <footer>
             <p>
-                <a href="#">Home</a> /
-                <a href="#about">About</a> /
-                <a href="#members">Members</a> /
+                <a href="#">Back to the top</a> /
+                <a href="#about">About our Initiative</a> /
+                <a href="#members">Volunteers</a> /
                 <a href="#contact">Contact</a>
             </p>
             <p>Made by <a href="https://nicob.dev">Nico Bachner</a> in 2020</p>
             <p id="vercel">
                 Powered by 
                 <a href="https://vercel.com?utm_source=sos-school&utm_campaign=oss">
-                    <svg id="vercel-icon" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
+                    <svg style="height: 0.8rem" viewBox="0 0 10 10" xmlns="http://www.w3.org/2000/svg">
                         <path fill="var(--content)" d="M5 0L10 10H0L5 0z"/>
                     </svg> 
                     Vercel

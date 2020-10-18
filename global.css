@@ -1,27 +1,20 @@
 @media (prefers-color-scheme: light) {
     html {
-        --content: #333333;
-        --theme: #ffffff;
-        --highlight: #6666dd;
-    }
-    .dark-mode {
-        --content: white;
-        --theme: #000000;
-        --highlight: #dd6666;
+        --content: #111111;
+        --theme: #eeeeee;
     }
 }
 @media (prefers-color-scheme: dark) {
     html {
-        --content: white;
-        --theme: #000000;
-        --highlight: #dd6666;
-    }
-    .light-mode {
-        --content: #333333;
-        --theme: #ffffff;
-        --highlight: #6666dd;
+        --content: #eeeeee;
+        --theme: #111111;
     }
 }
+
+:root {
+    --highlight: #6666dd;
+}
+
 html {
     font-family: Georgia;
     color: var(--content);
@@ -30,78 +23,52 @@ html {
     font-size: large;
     margin: 0 1rem;
 }
+
+
 a {
+    text-decoration: none;
     color: var(--highlight);
 }
+
 h1, h2 {
     text-align: center;
 }
+
 nav {
     width: fit-content;
     margin: 2rem auto;
+    font-size: 3rem;
 }
-button {
-    display: block;
-    font-size: 2rem;
-    border: none;
-    padding: 0;
-    background-color: transparent;
+
+section {
+    max-width: 46rem;
+    line-height: 1.5;
+    margin: 4rem auto;
+}
+
+footer {
     text-align: center;
-    margin: auto;
+    padding: 0.5rem;
 }
-nav p {
-    font-size: 2rem;
-    margin: 0;
-}
-nav p a {
-    text-decoration: none;
-}
-.title {
-    margin: 2rem 0 4rem;
-}
+
+
 .title h1 {
-    font-size: 5rem;
+    font-size: 4.5rem;
     margin: 0;
 }
-.title-caption {
+.title p {
     margin: 0;
     font-size: 2rem;
     text-align: center;
     color: var(--highlight);
 }
-header img {
-    display: block;
-    width: 90vw;
-    max-width: 26rem;
-    margin: 0 auto;
-}
-h2 {
-    font-size: 2rem;
-}
-section {
-    max-width: 56rem;
-    line-height: 1.5;
-    margin: 0 auto;
-}
+
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+    grid-gap: 0.5rem;
 }
-.grid img {
-    width: 100%;
-}
-footer {
-    border-top: 1px solid var(--content);
+.grid p {
     text-align: center;
-    padding: 1rem;
-    margin-top: 8rem;
-}
-
-/* Vercel Footer */
-#vercel a {
-    text-decoration: none;
-}
-#vercel-icon {
-    height: 0.8rem;
+    margin: 0;
 }
