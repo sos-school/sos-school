@@ -17,8 +17,5 @@ We are yet in the early stages of getting our project up and running, hence feed
 
 - [email](mailto:soschool@protonmail.com)
 
-## Hosting
-
-We are hosted on [Vercel](https://vercel.com?utm_source=sos-school&utm_campaign=oss)
 
 ![Powered by Vercel](https://sos-school.org/images/Vercel.svg)
