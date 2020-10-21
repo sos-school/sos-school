@@ -3,4 +3,7 @@
         color: white;
         background-color: black;
     }
+    img {
+        filter: invert(100%);
+    }
 }

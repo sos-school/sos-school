@@ -4,8 +4,8 @@
 
 html {
     font-family: Georgia;
-    line-height: 1;
     font-size: large;
+    line-height: 1;
     max-width: 54rem;
     margin: auto;
 }
@@ -19,7 +19,7 @@ a {
     color: var(--highlight);
 }
 
-h1, h2 {
+h1, h2, footer {
     text-align: center;
 }
 
@@ -28,16 +28,6 @@ nav {
     width: fit-content;
     margin: 2rem auto;
     font-size: 3rem;
-}
-
-section {
-    line-height: 1.5;
-    margin: 4rem auto;
-}
-
-footer {
-    text-align: center;
-    margin: 2rem;
 }
 
 h1 {
@@ -49,6 +39,15 @@ header p {
     font-size: 2rem;
     text-align: center;
     color: var(--highlight);
+}
+
+section, footer {
+    line-height: 1.5;
+    margin: 2rem 0;
+}
+
+footer p {
+    margin: .5rem;
 }
 
 #members-content {
