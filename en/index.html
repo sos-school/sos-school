@@ -7,35 +7,22 @@
         <meta name="author" content="SOS School Luxembourg">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <link rel="icon" type="image/png" href="images/favicon.png">
-        <link rel="canonical" href="https://sos-school.org">
+        <link rel="icon" type="image/png" href="https://sos-school.org/images/favicon.png">
+        <link rel="canonical" href="https://en.sos-school.org" />
         
-        <link rel="stylesheet" href="styles/darkmode.css">
-        <link rel="stylesheet" href="styles/global.css">
-        
-        <script type="text/javascript" src="content/members.js"></script>
-        <script>
-            function detectLanguage() {
-                if (i18n.getUILanguage() == "fr") {
-                    window.location.href = "/fr";
-                }
-                else if (i18n.getUILanguage() == "de") {
-                    window.location.href = "/de";
-                }
-            }
-        </script>
+        <link rel="stylesheet" href="https://sos-school.org/styles/darkmode.css">
+        <link rel="stylesheet" href="https://sos-school.org/styles/global.css">
+
+        <script type="text/javascript" src="https://sos-school.org/content/members.js"></script>
 
         <title>SOS School Luxembourg</title>
     </head>
-    <body onload="
-        addMembers();
-        detectLanguage();
-    ">
+    <body onload="addMembers();">
         <header>
             <nav>
-                <a href="/de">🇩🇪</a>
-                <a href=".">🇬🇧</a>
-                <a href="/fr">🇫🇷</a>
+                <a href="https://de.sos-school.org">🇩🇪</a>
+                <a href="https://en.sos-school.org">🇬🇧</a>
+                <a href="https://fr.sos-school.org">🇫🇷</a>
             </nav>
             <h1>SOS School</h1>
             <p>Luxembourg</p>
@@ -68,7 +55,7 @@
         <hr>
         <footer>
             <p>
-                <a href="#">Back to the top</a> /
+                <a href=".">Back to the top</a> /
                 <a href="#about">About our Initiative</a> /
                 <a href="#members">Volunteers</a> /
                 <a href="#contact">Contact</a>
