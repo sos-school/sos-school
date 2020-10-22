@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="description" content="We are a team of friendly, motivated and dynamic young people aged 16 to 19 who love to learn and share their interest in studying.">
         <meta name="keywords" content="sos, school, sos-school, soschool, luxembourg, caritas, croix rouge">
-        <meta name="author" content="SOSchool Luxembourg">
+        <meta name="author" content="SOS School Luxembourg">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="icon" type="image/png" href="images/favicon.png">
@@ -14,10 +14,23 @@
         <link rel="stylesheet" href="styles/global.css">
         
         <script type="text/javascript" src="content/members.js"></script>
+        <script>
+            function detectLanguage() {
+                if (i18n.getUILanguage() == "fr") {
+                    window.location.href = "/fr";
+                }
+                else if (i18n.getUILanguage() == "de") {
+                    window.location.href = "/de";
+                }
+            }
+        </script>
 
         <title>SOS School Luxembourg</title>
     </head>
-    <body onload="addMembers()">
+    <body onload="
+        addMembers();
+        detectLanguage();
+    ">
         <header>
             <nav>
                 <a href="https://sos-school.org/de">🇩🇪</a>
@@ -31,7 +44,7 @@
             <section id="about">
                 <h2>About Our Initiative</h2>
                 <h3>Who are we?</h3>
-                <p>We are a team of friendly, motivated and dynamic young people, mostly aged 16 to 19, who find joy in the process of learning and would like to share their interest in studying.</p>
+                <p>We are a team of friendly and motivated young people who find joy in the process of learning, and wish to share their interest in studying. Our team consist of high school students, mostly ages 16 to 19.</p>
                 <h3>Who are our pupils?</h3>
                 <p>Our classes are aimed at children struggling with their studies in any way. Being students ourselves, we are able to put ourselves into our pupils' shoes.</p> 
                 <p>We are currently also partnered with Caritas and the Luxembourg Red Cross, and in collaboration with them, we support children from various families.</p>
@@ -39,7 +52,8 @@
                 <p>We are convinced that curiosity and self-confidence are the key to success, both in school and in life. Therefore, we are committed to building confidence in our students. We invest ourselves fully and help the children every week, at their home, not only by identifying areas of progress, by doing substantive revisions, but we also assist them in their homework.</p>
                 <p>We are also strong believers in communication. We are in constant communication with our pupils' parents, involving them in our plans if they wish to be partake in their child's progress. When parents agree to it, we also get in touch with the child's teacher to discuss their progress in order to make our sessions fit in to their teaching schedule.</p>
                 <h3>Price</h3>
-                <p>It's free! Everything we do, we do as a service to society, without any form of monetary incentive.</p>
+                <p>It's free!</p>
+                <p>Everything we do, we do as a service to society, without any form of monetary incentive.</p>
             </section>
             <section id="members">
                 <h2>Our Volunteers</h2>

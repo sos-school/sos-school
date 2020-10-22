@@ -18,4 +18,4 @@ We are yet in the early stages of getting our project up and running, hence feed
 - [email](mailto:soschool@protonmail.com)
 
 
-![Powered by Vercel](https://sos-school.org/images/vercel-slogan.svg)
+![Powered by Vercel](https://sos-school.org/images/vercel.svg)
