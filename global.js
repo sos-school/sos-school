@@ -30,7 +30,7 @@ async function addLanguages() {
     }
 }
 
-window.onload = async function addContent() {
+window.onload = function addContent() {
     addLanguages();
     addMembers();
 }
