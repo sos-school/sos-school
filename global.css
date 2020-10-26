@@ -44,6 +44,21 @@ header p {
     color: var(--highlight);
 }
 
+@keyframes fade-in {
+    from {
+        visibility: hidden;
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+main {
+    animation-name: fade-in;
+    animation-delay: 0.05s;
+    animation-duration: 0.2s;
+}
+
 section, footer {
     line-height: 1.5;
     margin: 2rem 0;
