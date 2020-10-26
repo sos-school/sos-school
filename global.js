@@ -13,8 +13,6 @@ async function addLanguages() {
         language.innerHTML = languages[i].flag;
         languageNavigation.appendChild(language);
     }
-
-
 }
 
 async function addMembers() {
