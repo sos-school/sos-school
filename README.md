@@ -1,4 +1,4 @@
-# SOSchool Luxembourg
+# SOS School Luxembourg
 
 [sos school](https://www.sos-school.org) is an organisation whose mission is to help High School Students in Luxembourg guide Primary School Children through the Luxembourgish school system and share their personal experience with them.
 
