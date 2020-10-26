@@ -1,7 +1,7 @@
 // make api calls DRY
 async function getData(type) {
     let response = await fetch(`https://api.sos-school.org/${type}`);
-    let type = response.json();
+    type = response.json();
 }
 
 async function addMembers() {
