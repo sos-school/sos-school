@@ -1,4 +1,4 @@
-window.onload = async function addMembers() {
+async function addMembers() {
     var membersSection = document.getElementById("members-content");
 
     // fetch data
@@ -13,7 +13,7 @@ window.onload = async function addMembers() {
     }
 }
 
-window.onload = async function addLanguages() {
+async function addLanguages() {
     var languageNavigation = document.getElementById("change-language");
 
     // fetch data
@@ -24,7 +24,12 @@ window.onload = async function addLanguages() {
     for (var i = 0; i < languages.length; i++) {
         var language = document.createElement("a");
         language.href = `https://${languages[i].abbreviation}.sos-school.org`;
-        language.innerHTML = languages[i].flag + ' ' + languages[i].language;
+        language.innerHTML = languages[i].flag;
         languageNavigation.appendChild(language);
     }
+}
+
+window.onload = async function addContent() {
+    addLanguages();
+    addMembers();
 }
