@@ -48,10 +48,32 @@ header p {
     text-align: center;
     color: var(--highlight);
 }
+nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    grid-gap: 1rem;
+}
+button {
+    width: 100%;
+    background-color: inherit;
+    border-radius: 2rem;
+    border: 1px solid #808080;
+    padding: .5rem;
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}
+button:active {
+    color: var(--content);
+    background-color: var(--highlight);
+}
+.language-link {
+    font-size: 2.5rem;
+    width: 100%;
+}
 
 main {
     animation-name: fadein;
-    animation-delay: 2s;
+    animation-delay: 1s;
     animation-duration: 2s;
     animation-fill-mode: both;
 }
@@ -61,27 +83,18 @@ section, footer {
     margin: 2rem 0;
 }
 
-footer p {
-    margin: .5rem;
-}
-
-#change-language {
-    width: -moz-fit-content;
-    width: fit-content;
-}
-.language-link {
-    font-size: 2.5rem;
-    margin: .5rem;
-}
-
 #members-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
-    grid-gap: .5rem;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    grid-gap: 1rem;
 }
 #members-content p {
     text-align: center;
     margin: 0;
+}
+
+footer p {
+    margin: .5rem;
 }
 
 @keyframes fadein {

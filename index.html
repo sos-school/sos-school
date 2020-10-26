@@ -19,6 +19,7 @@
                 for (var i = 0; i < languages.length; i++) {
                     var languageLink = document.createElement("a");
                     languageLink.href = `https://${languages[i].abbreviation}.sos-school.org`;
+                    
                     languageLink.style.animationName = "fadein";
                     languageLink.style.animationDuration = `.5s`;
                     fadeInDelay = i / 5;
@@ -33,27 +34,6 @@
                 }
             }
         </script>
-
-        <style>
-            nav {
-                display: grid;
-                grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
-                grid-gap: 1rem;
-            }
-            button {
-                width: 100%;
-                background-color: inherit;
-                border-radius: 2rem;
-                border: 1px solid #7f7f7f;
-                padding: .5rem;
-                font-size: 1.5rem;
-                text-transform: capitalize;
-            }
-            button:active {
-                color: var(--content);
-                background-color: var(--highlight);
-            }
-        </style>
 
         <title>SOS School Luxembourg</title>
     </head>

@@ -1,5 +1,5 @@
 async function addLanguages() {
-    var languageNavigation = document.getElementById("change-language");
+    var languageNavigation = document.getElementById("select-language");
 
     // fetch data
     let response = await fetch('https://api.sos-school.org/languages');
@@ -10,13 +10,18 @@ async function addLanguages() {
         var language = document.createElement("a");
         language.className = "language-link";
         language.href = `https://${languages[i].abbreviation}.sos-school.org`;
-        language.innerHTML = languages[i].flag;
+
         language.style.animationName = "fadein";
-        language.style.animationDuration = `.5s`;
-        fadeInDelay = i / 5;
+        language.style.animationDuration = `1s`;
+        fadeInDelay = i / 2;
         language.style.animationDelay = `${fadeInDelay}s`;
-        languageNavigation.appendChild(language);
         language.style.animationFillMode = "both";
+
+        var languageButton = document.createElement("button");
+        languageButton.innerHTML = languages[i].flag + " " + languages[i].language;
+
+        languageLink.appendChild(languageButton);
+        languageNavigation.appendChild(language);
     }
 }
 
