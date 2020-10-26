@@ -23,7 +23,7 @@ window.onload = async function addLanguages() {
     // inject data into language navigation
     for (var i = 0; i < languages.length; i++) {
         var language = document.createElement("a");
-        language.href = languages[i].abbreviation;
+        language.href = `https://${languages[i].abbreviation}.sos-school.org`;
         language.innerHTML = languages[i].flag + ' ' + languages[i].language;
         languageNavigation.appendChild(language);
     }
