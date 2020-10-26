@@ -7,11 +7,13 @@ window.onload = async function addLanguages() {
 
     // inject data into language navigation
     for (var i = 0; i < languages.length; i++) {
-        var language = document.createElement("a");
-        language.href = `https://${languages[i].abbreviation}.sos-school.org`;
-            var languageButton = document.createElement("button");
-            languageButton.innerHTML = languages[i].flag, languages[i].language;
-            language.appendChild(languageButton);
-        languageNavigation.appendChild(language);
+        var languageButton = document.createElement("button");
+        languageButton.innerHTML = languages[i].flag, languages[i].language;
+
+        var languageLink = document.createElement("a");
+        languageLink.href = `https://${languages[i].abbreviation}.sos-school.org`;
+            
+        languageLink.appendChild(languageButton);
+        languageNavigation.appendChild(languageLink);
     }
 }
