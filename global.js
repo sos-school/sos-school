@@ -7,21 +7,20 @@ async function addLanguages() {
 
     // inject data into language navigation
     for (var i = 0; i < languages.length; i++) {
-        var language = document.createElement("a");
-        language.className = "language-link";
-        language.href = `https://${languages[i].abbreviation}.sos-school.org`;
+        var languageLink = document.createElement("a");
+        languageLink.href = `https://${languages[i].abbreviation}.sos-school.org`;
 
-        language.style.animationName = "fadein";
-        language.style.animationDuration = `1s`;
+        languageLink.style.animationName = "fadein";
+        languageLink.style.animationDuration = `1s`;
         fadeInDelay = i / 2;
-        language.style.animationDelay = `${fadeInDelay}s`;
-        language.style.animationFillMode = "both";
+        languageLink.style.animationDelay = `${fadeInDelay}s`;
+        languageLink.style.animationFillMode = "both";
 
         var languageButton = document.createElement("button");
         languageButton.innerHTML = languages[i].flag + " " + languages[i].language;
 
         languageLink.appendChild(languageButton);
-        languageNavigation.appendChild(language);
+        languageNavigation.appendChild(languageLink);
     }
 }
 
