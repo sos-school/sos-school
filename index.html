@@ -17,12 +17,15 @@
             
                 // inject data into language navigation
                 for (var i = 0; i < languages.length; i++) {
-                    var languageButton = document.createElement("button");
-                    languageButton.innerHTML = languages[i].flag + " " + languages[i].language;
-            
                     var languageLink = document.createElement("a");
                     languageLink.href = `https://${languages[i].abbreviation}.sos-school.org`;
-                        
+                    languageLink.style.animationName = "fadein";
+                    fadeInDelay = i / 4
+                    languageLink.style.animationDelay = `${fadeInDelay}s`
+
+                    var languageButton = document.createElement("button");
+                    languageButton.innerHTML = languages[i].flag + " " + languages[i].language;
+
                     languageLink.appendChild(languageButton);
                     languageNavigation.appendChild(languageLink);
                 }

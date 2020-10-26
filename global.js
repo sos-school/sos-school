@@ -11,6 +11,9 @@ async function addLanguages() {
         language.className = "language-link";
         language.href = `https://${languages[i].abbreviation}.sos-school.org`;
         language.innerHTML = languages[i].flag;
+        language.style.animationName = "fadein";
+        fadeInDelay = i / 4
+        language.style.animationDelay = `${fadeInDelay}s`
         languageNavigation.appendChild(language);
     }
 }
@@ -26,6 +29,9 @@ async function addMembers() {
     for (var i = 0; i < members.length; i++) {
         var member = document.createElement("p");
         member.innerHTML = members[i].firstName + ' ' + members[i].lastName;
+        member.style.animationName = "fadein";
+        fadeInDelay = i / 4
+        member.style.animationDelay = `${fadeInDelay}s`
         membersSection.appendChild(member);
     }
 }

@@ -89,7 +89,7 @@ footer p {
 @keyframes fadein {
     from {
         visibility: hidden;
-        margin-top: 10rem;
+        margin-top: 100vh;
     }
     to {
         visibility: visible;
