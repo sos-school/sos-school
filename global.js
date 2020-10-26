@@ -12,5 +12,3 @@ async function addMembers() {
         membersSection.appendChild(member);
     }
 }
-
-addMembers();
