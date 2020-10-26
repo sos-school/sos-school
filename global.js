@@ -1,9 +1,14 @@
-window.onload = async function addMembers() {
+// make api calls DRY
+async function getData(type) {
+    let response = await fetch(`https://api.sos-school.org/${type}`);
+    let type = response.json();
+}
+
+async function addMembers() {
     var membersSection = document.getElementById("members-content");
 
     // fetch data
-    let response = await fetch('https://api.sos-school.org/members');
-    let members = await response.json();
+    await getData(members)
 
     // populate members section with fetched data
     for (var i = 0; i < members.length; i++) {
@@ -12,3 +17,5 @@ window.onload = async function addMembers() {
         membersSection.appendChild(member);
     }
 }
+
+window.onload = addMembers();
