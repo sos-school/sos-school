@@ -6,8 +6,28 @@
 
         <link rel="canonical" href="https://en.sos-school.org">
         <link rel="stylesheet" href="global.css">
-
-        <script src="root.js"></script>
+        
+        <script>
+            window.onload = async function addLanguages() {
+                var languageNavigation = document.getElementById("choose-language");
+            
+                // fetch data
+                let response = await fetch('https://api.sos-school.org/languages');
+                let languages = await response.json();
+            
+                // inject data into language navigation
+                for (var i = 0; i < languages.length; i++) {
+                    var languageButton = document.createElement("button");
+                    languageButton.innerHTML = languages[i].flag + " " + languages[i].language;
+            
+                    var languageLink = document.createElement("a");
+                    languageLink.href = `https://${languages[i].abbreviation}.sos-school.org`;
+                        
+                    languageLink.appendChild(languageButton);
+                    languageNavigation.appendChild(languageLink);
+                }
+            }
+        </script>
 
         <style>
             nav {
@@ -16,12 +36,13 @@
                 grid-gap: 1rem;
             }
             button {
+                width: 100%;
                 background-color: inherit;
-                border-radius: 1rem;
+                border-radius: 2rem;
                 border: 1px solid #7f7f7f;
-            }
-            a {
+                padding: .5rem;
                 font-size: 1.5rem;
+                text-transform: capitalize;
             }
         </style>
 
@@ -33,6 +54,6 @@
                 SOS School
             </h1>
         </header>
-        <nav></nav>
+        <nav id="choose-language"></nav>
     </body>
 </html>
