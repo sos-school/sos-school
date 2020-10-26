@@ -55,6 +55,7 @@ nav {
 }
 button {
     width: 100%;
+    color: var(--content);
     background-color: inherit;
     border-radius: 2rem;
     border: 1px solid #808080;
@@ -62,8 +63,7 @@ button {
     font-size: 1.5rem;
     text-transform: capitalize;
 }
-button:active {
-    color: var(--content);
+button:hover {
     background-color: var(--highlight);
 }
 .language-link {
