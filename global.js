@@ -12,7 +12,7 @@ async function addLanguages() {
 
         languageLink.style.animationName = "fadein";
         languageLink.style.animationDuration = `1s`;
-        fadeInDelay = i / 2;
+        fadeInDelay = i / 4;
         languageLink.style.animationDelay = `${fadeInDelay}s`;
         languageLink.style.animationFillMode = "both";
 
