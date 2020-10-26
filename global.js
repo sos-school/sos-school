@@ -13,7 +13,7 @@ async function addLanguages() {
         language.innerHTML = languages[i].flag;
         language.style.animationName = "fadein";
         language.style.animationDuration = `.5s`;
-        fadeInDelay = i / 4;
+        fadeInDelay = i / 5;
         language.style.animationDelay = `${fadeInDelay}s`;
         languageNavigation.appendChild(language);
         language.style.animationFillMode = "both";
@@ -31,11 +31,6 @@ async function addMembers() {
     for (var i = 0; i < members.length; i++) {
         var member = document.createElement("p");
         member.innerHTML = members[i].firstName + ' ' + members[i].lastName;
-        member.style.animationName = "fadein";
-        language.style.animationFillMode = "both";
-        member.style.animationDuration = `.5s`
-        fadeInDelay = i / 4
-        member.style.animationDelay = `${fadeInDelay}s`
         membersSection.appendChild(member);
     }
 }
