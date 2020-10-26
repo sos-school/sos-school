@@ -1,14 +1,9 @@
-// make api calls DRY
-async function getData(type) {
-    let response = await fetch(`https://api.sos-school.org/${type}`);
-    type = response.json();
-}
-
-async function addMembers() {
+window.onload = async function addMembers() {
     var membersSection = document.getElementById("members-content");
 
     // fetch data
-    await getData(members)
+    let response = await fetch('https://api.sos-school.org/members');
+    let members = await response.json();
 
     // populate members section with fetched data
     for (var i = 0; i < members.length; i++) {
@@ -18,4 +13,18 @@ async function addMembers() {
     }
 }
 
-window.onload = addMembers();
+window.onload = async function addLanguages() {
+    var languageNavigation = document.getElementById("change-language");
+
+    // fetch data
+    let response = await fetch('https://api.sos-school.org/languages');
+    let languages = await response.json();
+
+    // inject data into language navigation
+    for (var i = 0; i < languages.length; i++) {
+        var language = document.createElement("a");
+        language.href = languages[i].abbreviation;
+        language.innerHTML = languages[i].flag + ' ' + languages[i].language;
+        languageNavigation.appendChild(language);
+    }
+}
