@@ -4,18 +4,20 @@
 
 ## Collaboration with other non-profit organisations
 
-- [Caritas](https://www.caritas.lu)\
-Caritas is a non-profit supporting anyone in need of it in Luxembourg. We have them to thank for getting us in contact with our initial families.
+- [Caritas](https://www.caritas.lu)
+
+Caritas is a non-profit supporting anyone in need of it in Luxembourg. \
+We have them to thank for getting us in contact with our initial families.
 
 - Croix Rouge (Luxembourg Red Cross)
 
 ## Feedback
 
-We are yet in the early stages of getting our project up and running, hence feedback is much appreciated.
+We are yet in the early stages of getting our project up and running, hence feedback about our project is much appreciated.
 
 ## Contact
 
 - [email](mailto:soschool@protonmail.com)
 
 
-![Powered by Vercel](https://sos-school.org/images/vercel.svg)
+![Powered by Vercel](https://sos-school.org/images/Vercel.svg)
