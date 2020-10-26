@@ -1,3 +1,22 @@
+async function addLanguages() {
+    var languageNavigation = document.getElementById("change-language");
+
+    // fetch data
+    let response = await fetch('https://api.sos-school.org/languages');
+    let languages = await response.json();
+
+    // inject data into language navigation
+    for (var i = 0; i < languages.length; i++) {
+        var language = document.createElement("a");
+        language.className = "language-link";
+        language.href = `https://${languages[i].abbreviation}.sos-school.org`;
+        language.innerHTML = languages[i].flag;
+        languageNavigation.appendChild(language);
+    }
+
+
+}
+
 async function addMembers() {
     var membersSection = document.getElementById("members-content");
 
@@ -10,23 +29,6 @@ async function addMembers() {
         var member = document.createElement("p");
         member.innerHTML = members[i].firstName + ' ' + members[i].lastName;
         membersSection.appendChild(member);
-    }
-}
-
-async function addLanguages() {
-    var languageNavigation = document.getElementById("change-language");
-
-    // fetch data
-    let response = await fetch('https://api.sos-school.org/languages');
-    let languages = await response.json();
-
-    // inject data into language navigation
-    for (var i = 0; i < languages.length; i++) {
-        var language = document.createElement("a");
-        language.id = "language-link";
-        language.href = `https://${languages[i].abbreviation}.sos-school.org`;
-        language.innerHTML = languages[i].flag;
-        languageNavigation.appendChild(language);
     }
 }
 
