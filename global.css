@@ -33,13 +33,6 @@ h1, h2, footer {
     text-align: center;
 }
 
-nav {
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: 2rem auto;
-    font-size: 3rem;
-}
-
 h1 {
     font-size: 4rem;
     margin: 0;
@@ -58,6 +51,16 @@ section, footer {
 
 footer p {
     margin: .5rem;
+}
+
+#change-language {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 2rem auto;
+    font-size: 3rem;
+}
+#language-link {
+    margin: 0 .5rem;
 }
 
 #members-content {
