@@ -13,7 +13,7 @@ async function addMembers() {
     }
 }
 
-function addLanguages() {
+async function addLanguages() {
     var languageNavigation = document.getElementById("change-language");
 
     // fetch data
