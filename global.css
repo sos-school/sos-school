@@ -52,11 +52,10 @@ header p {
 @keyframes fadein {
     0% {
         visibility: hidden;
-        margin-top: calc(initial + 10rem);
+        bottom: 0;
     }
     100% {
         visibility: visible;
-        margin-top: initial;
     }
 }
 
