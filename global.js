@@ -1,4 +1,4 @@
-async function addMembers() {
+window.onload = async function addMembers() {
     var membersSection = document.getElementById("members-content");
 
     // fetch data
