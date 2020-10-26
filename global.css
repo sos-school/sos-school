@@ -50,8 +50,8 @@ header p {
 }
 
 main {
-    animation-delay: 1;
     animation-name: fadein;
+    animation-delay: 1;
     animation-duration: 2s;
 }
 
@@ -86,13 +86,13 @@ footer p {
     margin: 0;
 }
 
-
 @keyframes fadein {
-    0% {
+    from {
         visibility: hidden;
-        bottom: 0;
+        margin-top: 10rem;
     }
-    100% {
+    to {
         visibility: visible;
+        margin-top: 0;
     }
 }
