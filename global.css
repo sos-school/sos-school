@@ -51,7 +51,7 @@ header p {
 
 main {
     animation-name: fadein;
-    animation-delay: 1;
+    animation-delay: 2s;
     animation-duration: 2s;
     animation-fill-mode: both;
 }
@@ -87,10 +87,8 @@ footer p {
 @keyframes fadein {
     from {
         filter: opacity(0%);
-        margin-top: calc(initial + 1rem);
     }
     to {
         filter: opacity(100%);
-        margin-top: initial;
     }
 }
