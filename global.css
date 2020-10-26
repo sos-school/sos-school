@@ -35,28 +35,29 @@ h1, h2, footer {
 
 h1 {
     font-size: 4rem;
-    margin: 0;
 }
 header p {
-    margin: 0;
+    margin-top: -2rem;
     font-size: 2rem;
     text-align: center;
     color: var(--highlight);
 }
 
-@keyframes fade-in {
-    from {
+@keyframes fadein {
+    0% {
         visibility: hidden;
     }
-    to {
+    20% {
+        visibility: hidden;
+    }
+    100% {
         visibility: visible;
     }
 }
 
 main {
-    animation-name: fade-in;
-    animation-delay: 0.05s;
-    animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: .5s;
 }
 
 section, footer {
