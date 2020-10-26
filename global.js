@@ -12,6 +12,7 @@ async function addLanguages() {
         language.href = `https://${languages[i].abbreviation}.sos-school.org`;
         language.innerHTML = languages[i].flag;
         language.style.animationName = "fadein";
+        language.style.animationDuration = `.5s`
         fadeInDelay = i / 4
         language.style.animationDelay = `${fadeInDelay}s`
         languageNavigation.appendChild(language);
@@ -30,6 +31,7 @@ async function addMembers() {
         var member = document.createElement("p");
         member.innerHTML = members[i].firstName + ' ' + members[i].lastName;
         member.style.animationName = "fadein";
+        member.style.animationDuration = `.5s`
         fadeInDelay = i / 4
         member.style.animationDelay = `${fadeInDelay}s`
         membersSection.appendChild(member);
