@@ -52,18 +52,18 @@ header p {
 @keyframes fadein {
     0% {
         visibility: hidden;
-    }
-    20% {
-        visibility: hidden;
+        margin-top: calc(initial + 10rem);
     }
     100% {
         visibility: visible;
+        margin-top: initial;
     }
 }
 
 main {
+    animation-delay: 1;
     animation-name: fadein;
-    animation-duration: 1s;
+    animation-duration: 2s;
 }
 
 section, footer {
@@ -79,6 +79,8 @@ footer p {
     width: -moz-fit-content;
     width: fit-content;
     margin: 1rem auto 2rem;
+    animation-name: fadein;
+    animation-duration: 1s;
 }
 .language-link {
     font-size: 2.5rem;
