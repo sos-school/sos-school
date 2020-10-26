@@ -20,9 +20,10 @@
                     var languageLink = document.createElement("a");
                     languageLink.href = `https://${languages[i].abbreviation}.sos-school.org`;
                     languageLink.style.animationName = "fadein";
-                    languageLink.style.animationDuration = `.5s`
-                    fadeInDelay = i / 4
-                    languageLink.style.animationDelay = `${fadeInDelay}s`
+                    languageLink.style.animationDuration = `.5s`;
+                    fadeInDelay = i / 5;
+                    languageLink.style.animationDelay = `${fadeInDelay}s`;
+                    languageLink.style.animationFillMode = "both";
 
                     var languageButton = document.createElement("button");
                     languageButton.innerHTML = languages[i].flag + " " + languages[i].language;

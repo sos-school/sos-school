@@ -53,6 +53,7 @@ main {
     animation-name: fadein;
     animation-delay: 1;
     animation-duration: 2s;
+    animation-fill-mode: both;
 }
 
 section, footer {
