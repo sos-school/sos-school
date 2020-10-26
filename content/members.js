@@ -1,43 +1,11 @@
-members = [
-    {
-        "firstName": "Mathis",
-        "lastName": "Oberlé"
-    },
-    {
-        "firstName": "Arthur",
-        "lastName": "Van der Torre"
-    },
-    {
-        "firstName": "Nico",
-        "lastName": "Bachner"
-    },
-    {
-        "firstName": "Noé",
-        "lastName": "Oberlé"
-    },
-    {
-        "firstName": "Shani",
-        "lastName": "Terblanche"
-    },
-    {
-        "firstName": "Aiona",
-        "lastName": "Gambucci"
-    },
-    {
-        "firstName": "Rowan",
-        "lastName": "Pereira"
-    },
-    {
-        "firstName": "Nicolas",
-        "lastName": "Gerbaud"
-    },
-    {
-        "firstName": "Anna Rita",
-        "lastName": "Cefalì"
-    }
-]
-
 function addMembers() {
+    fetch('https://api.sos-school.org/members')
+        .then(response => {
+            return response.json();
+        })
+        .then(members => {
+            console.log(members);
+        })
     var membersSection = document.getElementById("members-content");
     for (var i = 0; i < members.length; i++) {
         var member = document.createElement("p");
