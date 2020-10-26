@@ -49,16 +49,6 @@ header p {
     color: var(--highlight);
 }
 
-@keyframes fadein {
-    0% {
-        visibility: hidden;
-        bottom: 0;
-    }
-    100% {
-        visibility: visible;
-    }
-}
-
 main {
     animation-delay: 1;
     animation-name: fadein;
@@ -94,4 +84,15 @@ footer p {
 #members-content p {
     text-align: center;
     margin: 0;
+}
+
+
+@keyframes fadein {
+    0% {
+        visibility: hidden;
+        bottom: 0;
+    }
+    100% {
+        visibility: visible;
+    }
 }
