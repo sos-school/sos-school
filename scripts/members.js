@@ -2,8 +2,7 @@ export default async function addMembers() {
     var membersSection = document.getElementById("members-content");
 
     // fetch data
-    let response = await fetch('https://api.sos-school.org/members');
-    let members = await response.json();
+    const members = require('../content/members.json')
 
     // populate members section with fetched data
     for (var i = 0; i < members.length; i++) {

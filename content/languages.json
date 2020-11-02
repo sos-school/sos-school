@@ -1,0 +1,17 @@
+[
+    {
+        "language": "english",
+        "flag": "🇬🇧",
+        "abbreviation": "en"
+    },
+    {
+        "language": "français",
+        "flag": "🇫🇷",
+        "abbreviation": "fr"
+    },
+    {
+        "language": "deutsch",
+        "flag": "🇩🇪",
+        "abbreviation": "de"
+    }
+]

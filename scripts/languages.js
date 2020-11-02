@@ -2,8 +2,7 @@ export default async function addLanguages() {
     var languageNavigation = document.getElementById("select-language");
 
     // fetch data
-    let response = await fetch('https://api.sos-school.org/languages');
-    let languages = await response.json();
+    const languages = require('../content/languages.json')
 
     // inject data into language navigation
     for (var i = 0; i < languages.length; i++) {
