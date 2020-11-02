@@ -2,7 +2,8 @@ export default async function addMembers() {
     var membersSection = document.getElementById("members-list");
 
     // fetch data
-    const members = require('../content/members.json')
+    let response = await fetch(`../content/members.json`);
+    let members = await response.json();
 
     // populate members section with fetched data
     for (var i = 0; i < members.length; i++) {

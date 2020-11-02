@@ -6,5 +6,5 @@ export default async function addAbout() {
     let about = await response.json();
 
     // inject data into about section
-    
+    document.getElementById('about').innerHTML = marked(about)
 }
