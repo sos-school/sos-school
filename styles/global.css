@@ -39,12 +39,12 @@ header p {
     grid-gap: 1rem;
 }
 button {
-    width: 100%;
+    justify-self: center;
     color: var(--content);
     background-color: var(--theme);
     border-radius: 2rem;
     border: 1px solid #808080;
-    padding: .2rem;
+    padding: .5rem;
     font-size: 1rem;
     text-transform: capitalize;
 }

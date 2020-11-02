@@ -5,5 +5,5 @@ export default async function addAbout(lang) {
     console.log(response);
 
     // inject data into about section
-    document.getElementById(id).innerHTML = marked(about);
+    document.getElementById("about").innerHTML = marked(about);
 }
