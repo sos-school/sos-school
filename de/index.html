@@ -9,10 +9,17 @@
         <link rel="icon" type="image/png" href="../images/favicon.png">
         <link rel="canonical" href="https://www.sos-school.org/de" />
         
-        <link rel="stylesheet" href="../styles/global.css">
+        <link type="text/css" rel="stylesheet" href="../styles/global.css">
 
-        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-        <script type="module" src="./de.js"></script>
+        <script type="module">
+            import addLanguages from '../scripts/languages.js';
+            import addMembers from '../scripts/members.js';
+
+            window.onload = function addContent() {
+                addLanguages("de");
+                addMembers();
+            }
+        </script>
 
         <title>SOS School Luxemburg</title>
     </head>

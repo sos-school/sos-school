@@ -11,7 +11,15 @@
         
         <link type="text/css" rel="stylesheet" href="../styles/global.css">
 
-        <script type="text/javascript" src="./fr.js"></script>
+        <script type="module">
+            import addLanguages from '../scripts/languages.js';
+            import addMembers from '../scripts/members.js';
+            
+            window.onload = function addContent() {
+                addLanguages("fr");
+                addMembers();
+            }
+        </script>
 
         <title>SOS School Luxembourg</title>
     </head>
