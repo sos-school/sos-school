@@ -8,19 +8,27 @@
 }
 
 html {
-    max-width: 54rem;
-    margin: auto;
+    font-size: large;
     color: var(--content);
     background-color: var(--theme);
 }
 
 body {
-    margin: 2rem;
+    margin: calc(25vw - 4rem);
+    margin-top: 5vw;
+    margin-bottom: 0;
 }
 
 a {
     text-decoration: none;
     color: var(--highlight);
+}
+
+button {
+    color: inherit;
+    background-color: inherit;
+    padding: 0;
+    border: none;
 }
 
 h1, h2, footer {
@@ -45,12 +53,16 @@ main {
     animation-fill-mode: both;
 }
 
-section, footer {
-    font-size: large;
+section {
     line-height: 1.5;
     margin: 2rem 0;
 }
 
-footer p {
-    margin: .5rem;
+footer {
+    margin: 2rem;
+    filter: hue-rotate(50%);
+}
+
+#vercel {
+    height: 2rem;
 }
