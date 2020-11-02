@@ -62,6 +62,9 @@ footer {
     margin: 2rem;
     filter: hue-rotate(50%);
 }
+footer nav a {
+    display: inline-block;
+}
 
 #vercel {
     height: 2rem;
