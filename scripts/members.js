@@ -1,4 +1,4 @@
-async function addMembers() {
+export default async function addMembers() {
     var membersSection = document.getElementById("members-content");
 
     // fetch data
@@ -11,9 +11,4 @@ async function addMembers() {
         member.innerHTML = members[i].firstName + ' ' + members[i].lastName;
         membersSection.appendChild(member);
     }
-}
-
-window.onload = function addContent() {
-    addLanguages();
-    addMembers();
 }

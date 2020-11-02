@@ -1,4 +1,4 @@
-async function addLanguages() {
+export default async function addLanguages() {
     var languageNavigation = document.getElementById("select-language");
 
     // fetch data

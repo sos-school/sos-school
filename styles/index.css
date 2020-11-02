@@ -1,3 +1,6 @@
+@import 'darkmode.css';
+@import 'animations.css';
+
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
@@ -74,13 +77,4 @@ section, footer {
 
 footer p {
     margin: .5rem;
-}
-
-@keyframes fadein {
-    from {
-        filter: opacity(0%);
-    }
-    to {
-        filter: opacity(100%);
-    }
 }
