@@ -35,7 +35,7 @@ header p {
 }
 #select-language {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-gap: 1rem;
 }
 button {
@@ -44,8 +44,8 @@ button {
     background-color: var(--theme);
     border-radius: 2rem;
     border: 1px solid #808080;
-    padding: .5rem;
-    font-size: 1.5rem;
+    padding: .2rem;
+    font-size: 1rem;
     text-transform: capitalize;
 }
 button:hover {
@@ -64,14 +64,14 @@ section, footer {
     margin: 2rem 0;
 }
 
-#members-content {
+#members-list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
     grid-gap: 1rem;
     padding: 0;
     list-style-type: none;
 }
-#members-content li {
+#members-list li {
     text-align: center;
 }
 
