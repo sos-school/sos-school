@@ -1,10 +1,13 @@
 @import 'darkmode.css';
 @import 'animations.css';
+@import 'languageSelection.css';
+@import 'members.css';
+
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 
 html {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: large;
-    line-height: 1;
     max-width: 54rem;
     margin: auto;
     color: var(--content);
@@ -26,34 +29,13 @@ h1, h2, footer {
 
 h1 {
     font-size: 4rem;
+    line-height: 1;
 }
 header p {
     margin-top: -2rem;
     font-size: 2rem;
     text-align: center;
     color: var(--highlight);
-}
-#select-language {
-    width: -moz-fit-content;
-    width: fit-content;
-    margin: auto;
-}
-#select-language a {
-    width: -moz-fit-content;
-    width: fit-content;
-}
-button {
-    margin: .5rem;
-    color: var(--content);
-    background-color: var(--theme);
-    border-radius: 2rem;
-    border: 1px solid #808080;
-    padding: .5rem 1.5rem;
-    font-size: 1rem;
-    text-transform: capitalize;
-}
-button:hover {
-    background-color: var(--highlight);
 }
 
 main {
@@ -64,19 +46,9 @@ main {
 }
 
 section, footer {
+    font-size: large;
     line-height: 1.5;
     margin: 2rem 0;
-}
-
-#members-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
-    grid-gap: 1rem;
-    padding: 0;
-    list-style-type: none;
-}
-#members-list li {
-    text-align: center;
 }
 
 footer p {
