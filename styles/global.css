@@ -34,17 +34,20 @@ header p {
     color: var(--highlight);
 }
 #select-language {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
-    grid-gap: 1rem;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+#select-language a {
+    width: -moz-fit-content;
+    width: fit-content;
 }
 button {
-    justify-self: center;
     color: var(--content);
     background-color: var(--theme);
     border-radius: 2rem;
     border: 1px solid #808080;
-    padding: .5rem;
+    padding: .5rem 2rem;
     font-size: 1rem;
     text-transform: capitalize;
 }
