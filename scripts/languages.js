@@ -14,7 +14,7 @@ export default async function addLanguages(lang) {
             languageLink.style.animationName = "fadein";
             languageLink.style.animationDuration = `1s`;
             
-            var fadeInDelay = i / 4;
+            var fadeInDelay = i / 3;
             languageLink.style.animationDelay = `${fadeInDelay}s`;
             languageLink.style.animationFillMode = "both";
 

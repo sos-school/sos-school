@@ -59,7 +59,7 @@ button:hover {
 main {
     animation-name: fadein;
     animation-delay: 1s;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-fill-mode: both;
 }
 
