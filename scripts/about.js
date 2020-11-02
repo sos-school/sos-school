@@ -1,12 +1,9 @@
-export default async function addAbout() {
-    var AboutSection = document.getElementById("about");
-
+export default async function addAbout(lang) {
     // fetch data
-    let response = await fetch(`https://raw.githubusercontent.com/sos-school/website/master/en/README.md`);
-    let about = await response.body;
-    console.log(response)
-    console.log(response.type)
+    let response = await fetch(`../${lang}/README.md`);
+    let about = await response.text;
+    console.log(response);
 
     // inject data into about section
-    document.getElementById('about').innerHTML = marked(about)
+    document.getElementById(id).innerHTML = marked(about);
 }
