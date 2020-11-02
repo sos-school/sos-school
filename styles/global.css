@@ -1,21 +1,3 @@
-@media (prefers-color-scheme: light) {
-    :root {
-        --content: #222222;
-        --theme: white;
-        --highlight: #6666dd;
-    }
-}
-@media (prefers-color-scheme: dark) {
-    :root {
-        --content: #dddddd;
-        --theme: black;
-        --highlight: #dd6666;
-    }
-    img {
-        filter: invert(100%);
-    }
-}
-
 html {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: large;
