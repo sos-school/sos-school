@@ -12,7 +12,11 @@
         <link rel="stylesheet" href="../styles/global.css">
 
         <script type="module" src="../scripts/content.js"></script>
-        <script>window.onload = addContent("en")</script>
+        <script>
+            window.onload = function load() {
+                addContent("en");
+            }
+        </script>
         
         <title>SOS School Luxembourg</title>
     </head>
