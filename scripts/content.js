@@ -1,6 +1,6 @@
-import addAbout from './about';
-import addLanguages from './languages';
-import addMembers from './members';
+import addAbout from './about.js';
+import addLanguages from './languages.js';
+import addMembers from './members.js';
 
 window.onload = function addContent() {
     addAbout();
