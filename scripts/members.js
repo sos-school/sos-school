@@ -1,5 +1,5 @@
 export default async function addMembers() {
-    var membersSection = document.getElementById("members-content");
+    var membersSection = document.getElementById("members-list");
 
     // fetch data
     const members = require('../content/members.json')

@@ -7,7 +7,7 @@ export default async function addLanguages() {
     // inject data into language navigation
     for (var i = 0; i < languages.length; i++) {
         var languageLink = document.createElement("a");
-        languageLink.href = `https://${languages[i].abbreviation}.sos-school.org`;
+        languageLink.href = `https://www.sos-school.org/${languages[i].abbreviation}`;
 
         languageLink.style.animationName = "fadein";
         languageLink.style.animationDuration = `1s`;

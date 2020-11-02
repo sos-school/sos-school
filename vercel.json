@@ -1,0 +1,7 @@
+{
+    "redirects": [
+      { "source": "https://en.sos-school.org", "destination": "/en" },
+      { "source": "https://de.sos-school.org", "destination": "/de" },
+      { "source": "https://fr.sos-school.org", "destination": "/fr" }
+    ]
+  }
