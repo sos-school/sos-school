@@ -9,6 +9,7 @@
     color: var(--content);
     border: 1px solid #808080;
     border-radius: 2rem;
+    padding: 0.5rem 1rem;
 }
 #select-language a:hover {
     background-color: var(--highlight);
