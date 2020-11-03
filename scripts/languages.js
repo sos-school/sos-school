@@ -12,7 +12,7 @@ export default async function addLanguages(lang) {
             // create link element
             var languageLink = document.createElement("a");
             languageLink.href = `https://www.sos-school.org/${languages[i].abbreviation}`;
-            languageButton.innerHTML = languages[i].flag + " " + languages[i].language;
+            languageLink.innerHTML = languages[i].flag + " " + languages[i].language;
             
             // fade-in animation
             var fadeInDelay = i / 3;

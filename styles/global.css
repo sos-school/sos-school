@@ -60,7 +60,6 @@ section {
 
 footer {
     margin: 2rem;
-    filter: invert(100%);
 }
 footer nav a {
     display: inline-block;
