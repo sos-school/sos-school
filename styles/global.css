@@ -1,6 +1,6 @@
 @import 'darkmode.css';
 @import 'animations.css';
-@import 'languageSelection.css';
+@import 'languages.css';
 @import 'members.css';
 
 * {
@@ -60,7 +60,7 @@ section {
 
 footer {
     margin: 2rem;
-    filter: hue-rotate(50%);
+    filter: invert(100%);
 }
 footer nav a {
     display: inline-block;

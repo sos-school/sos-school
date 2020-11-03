@@ -1,0 +1,15 @@
+#select-language {
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: auto;
+}
+#select-language a {
+    text-transform: capitalize;
+    margin: .5rem;
+    color: var(--content);
+    border: 1px solid #808080;
+    border-radius: 2rem;
+}
+#select-language a:hover {
+    background-color: var(--highlight);
+}
