@@ -1,3 +1,3 @@
-# [SOS School Luxembourg](https://www.sos-school.org)
+# SOS School
 
-![Powered by Vercel](https://sos-school.org/images/vercel.svg)
+A Luxembourgish student initiative to support primary school children in their studies, especially during the current pandemic.
