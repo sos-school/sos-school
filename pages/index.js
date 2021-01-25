@@ -16,7 +16,7 @@ export default function Home() {
                 <title>{t.title}</title>
             </Head>
             <main>
-                <h1 className="text-5xl">{t.title}</h1>
+                <h1 className="text-5xl pt-16">{t.title}</h1>
             </main>
         </>
     )

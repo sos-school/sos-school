@@ -16,7 +16,7 @@ export default function About() {
                 <title>{t.about}</title>
             </Head>
             <main>
-                <h1 className="text-4xl">{t.about}</h1>
+                <h1 className="text-4xl pt-12">{t.about}</h1>
             </main>
         </>
     )

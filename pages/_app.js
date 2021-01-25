@@ -8,7 +8,6 @@ export default function App({ Component, pageProps }) {
         <>
             <Head>
                 <link rel="icon" href="/favicon.png"/>
-                <meta name="color-scheme" content="dark light"></meta>
             </Head>
 
             <Header/>
