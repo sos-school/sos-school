@@ -8,8 +8,12 @@
     }
     main {
         min-height: calc(100vh - 8em);
+        @apply m-4 sm:m-6 md:m-8 lg:m-10 xl:m-12 2xl:m-14;
     }
     h1 {
-        @apply text-center font-bold;
+        @apply text-center font-bold text-4xl my-6;
+    }
+    h2 {
+        @apply text-2xl my-2;
     }
 }

@@ -14,8 +14,16 @@ export default function About() {
             <Head>
                 <title>{t.title}</title>
             </Head>
-            <main>
-                <h1 className="text-4xl pt-12">{t.title}</h1>
+            <main className="max-w-prose mx-auto">
+                <h1>{t.title}</h1>
+                <h2>{t.about.title}</h2>
+                <p>{t.about.content}</p>
+                <h2>{t.purpose.title}</h2>
+                <p>{t.purpose.content}</p>
+                <h2>{t.methods.title}</h2>
+                <p>{t.methods.content}</p>
+                <h2>{t.price.title}</h2>
+                <p>{t.price.content}</p>
             </main>
         </>
     )

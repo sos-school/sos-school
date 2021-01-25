@@ -1,8 +1,9 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import snippets from '../locales/snippets'
+import members from '../data/members.json'
 
-export default function Home() {
+export default function Team() {
     const router = useRouter();
     const t = 
     router.locale === 'lu' ? snippets.lu : 
@@ -12,13 +13,15 @@ export default function Home() {
     return (
         <>
             <Head>
-                <title>{t.title}</title>
+                <title>{t.team}</title>
             </Head>
             <main>
-                <h1 className="text-5xl my-10">{t.title}</h1>
-                <section>
-                    <p></p>
-                </section>
+                <h1>{t.team}</h1>
+                <ul className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    {members.map(member=>{
+                        return <li className="text-center">{member.firstName + " " + member.lastName}</li>
+                    })}
+                </ul>
             </main>
         </>
     )
