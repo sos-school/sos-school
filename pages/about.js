@@ -14,16 +14,24 @@ export default function About() {
             <Head>
                 <title>{t.title}</title>
             </Head>
-            <main className="max-w-prose mx-auto">
+            <main>
                 <h1>{t.title}</h1>
-                <h2>{t.about.title}</h2>
-                <p>{t.about.content}</p>
-                <h2>{t.purpose.title}</h2>
-                <p>{t.purpose.content}</p>
-                <h2>{t.methods.title}</h2>
-                <p>{t.methods.content}</p>
-                <h2>{t.price.title}</h2>
-                <p>{t.price.content}</p>
+                <section className="my-4">
+                    <h2>{t.about.title}</h2>
+                    <p>{t.about.content}</p>
+                </section>
+                <section className="my-4">
+                    <h2>{t.purpose.title}</h2>
+                    <p>{t.purpose.content}</p>
+                </section>
+                <section className="my-4">
+                    <h2>{t.methods.title}</h2>
+                    <p>{t.methods.content}</p>
+                </section>
+                <section className="my-4">
+                    <h2>{t.price.title}</h2>
+                    <p>{t.price.content}</p>
+                </section>
             </main>
         </>
     )

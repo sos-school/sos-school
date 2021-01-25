@@ -3,12 +3,12 @@
 @tailwind utilities;
 
 @layer base {
-    * {
-        @apply border;
+    :root {
+        color-scheme: light dark;
     }
     main {
-        min-height: calc(100vh - 8em);
-        @apply m-4 sm:m-6 md:m-8 lg:m-10 xl:m-12 2xl:m-14;
+        min-height: calc(100vh - 18em);
+        @apply sm:text-lg max-w-prose px-6 mx-auto my-16;
     }
     h1 {
         @apply text-center font-bold text-4xl my-6;

@@ -10,8 +10,13 @@ export default function Footer() {
     router.locale === 'fr' ? snippets.fr : snippets.en;
 
     return (
-        <footer>
-
+        <footer className="p-7 text-center leading-relaxed">
+            <p>
+                {t.attr} 
+                <a href="https://nicobachner.com" className="text-blue-400"> Nico Bachner </a>
+                {t.date} 2021
+            </p>
+            <p>Hosted on <a href="https://vercel.com/?utm_source=sos-school&utm_campaign=oss" className="text-blue-400">Vercel</a></p>
         </footer>
     )
 }

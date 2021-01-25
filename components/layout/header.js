@@ -16,7 +16,7 @@ export default function Header() {
     };
 
     return (
-        <nav className="px-8 py-2 flex justify-between">
+        <nav className="px-4 md:px-8 lg:px-12 xl:px-16 py-4 flex justify-between">
             <Link href="/">
                 <Image 
                     src="/logo.png" 
@@ -24,7 +24,7 @@ export default function Header() {
                     height="48"
                 />
             </Link>
-            <ul className="flex justify-center space-x-4">
+            <ul className="hidden sm:flex justify-center space-x-4">
                 <li className="flex-grow self-center">
                     <Link href="/about">
                         <a>{t.about}</a>
