@@ -3,6 +3,9 @@
 @tailwind utilities;
 
 @layer base {
+    * {
+        @apply border;
+    }
     main {
         min-height: calc(100vh - 8em);
     }

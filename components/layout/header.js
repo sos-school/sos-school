@@ -1,19 +1,18 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import en from '../../locales/en'
-import fr from '../../locales/fr'
-import de from '../../locales/de'
-import lu from '../../locales/lu'
+import snippets from '../../locales/snippets'
 
 export default function Header() {
     const router = useRouter();
-    const { locale } = router;
-    const t = locale === 'lu' ? lu : locale === 'de' ? de : locale === 'fr' ? fr : en;
+    const t = 
+    router.locale === 'lu' ? snippets.lu : 
+    router.locale === 'de' ? snippets.de : 
+    router.locale === 'fr' ? snippets.fr : snippets.en;
 
     const changeLanguage = (e) => {
         const locale = e.target.value;
-        router.push('/','/', { locale })
+        router.push(router.pathname, router.pathname, { locale })
     };
 
     return (
@@ -44,7 +43,7 @@ export default function Header() {
             </ul>
             <select
                 onChange={changeLanguage}
-                defaultValue={locale}
+                defaultValue={router.locale}
                 className="self-center"
             >
                 <option value="en">EN</option>

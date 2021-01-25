@@ -1,14 +1,13 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import en from '../locales/en'
-import fr from '../locales/fr'
-import de from '../locales/de'
-import lu from '../locales/lu'
+import snippets from '../locales/snippets'
 
 export default function Home() {
     const router = useRouter();
-    const { locale } = router;
-    const t = locale === 'lu' ? lu : locale === 'de' ? de : locale === 'fr' ? fr : en;
+    const t = 
+    router.locale === 'lu' ? snippets.lu : 
+    router.locale === 'de' ? snippets.de : 
+    router.locale === 'fr' ? snippets.fr : snippets.en;
 
     return (
         <>
@@ -17,6 +16,9 @@ export default function Home() {
             </Head>
             <main>
                 <h1 className="text-5xl pt-16">{t.title}</h1>
+                <section>
+                    <p></p>
+                </section>
             </main>
         </>
     )
