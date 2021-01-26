@@ -11,7 +11,7 @@
         @apply sm:text-lg max-w-prose px-6 mx-auto my-16;
     }
     h1 {
-        @apply text-center font-bold text-4xl my-6;
+        @apply text-center font-bold text-4xl my-8;
     }
     h2 {
         @apply text-2xl my-2;

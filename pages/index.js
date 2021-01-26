@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import snippets from '../locales/snippets'
+import { snippets } from '../content'
 
 export default function Home() {
     const router = useRouter();

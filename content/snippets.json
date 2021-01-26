@@ -1,0 +1,58 @@
+{
+    "en": {
+        "title": "SOS School Luxembourg",
+        "about": "About Us",
+        "team": "Our Team",
+        "contact": "Contact Us",
+        "notfound": {
+            "title": "Page not found",
+            "link": "Back to homepage"
+        },
+        "attr": {
+            "built": "Made by",
+            "date": "in the year"
+        }
+    },
+    "fr": {
+        "title": "SOS École Luxembourg",
+        "about": "À Propos de Nous",
+        "team": "Notre Équipe",
+        "contact": "Contactez-nous",
+        "notfound": {
+            "title": "Page ne pas trouvée",
+            "link": "Retourner à la page centrale"
+        },
+        "attr": {
+            "built": "Créé par",
+            "date": "dans l'année"
+        }
+    },
+    "de": {
+        "title": "SOS Schule Luxemburg",
+        "about": "Über Uns",
+        "team": "Unsere Mitarbeiter",
+        "contact": "Kontaktier Uns",
+        "notfound": {
+            "title": "Seite nicht gefunden",
+            "link": "Zurück zur Heimseite"
+        },
+        "attr": {
+            "built": "Gebaut von",
+            "date": "im Jahre"
+        }
+    },
+    "lu": {
+        "title": "SOS Schoul Lëtzebuerg",
+        "about": "Iwwert Eis",
+        "team": "Eisen Team",
+        "contact": "Kontaktéiert Eis",
+        "notfound": {
+            "title": "Säit nët fonnt",
+            "link": "Zeréck zur Heemsäit"
+        },
+        "attr": {
+            "built": "Gebaut vum",
+            "date": "am joer"
+        }
+    }
+}

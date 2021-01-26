@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import about from '../locales/content/about'
+import { about } from '../content'
 
 export default function About() {
     const router = useRouter();
@@ -8,6 +8,7 @@ export default function About() {
     router.locale === 'lu' ? about.lu : 
     router.locale === 'de' ? about.de : 
     router.locale === 'fr' ? about.fr : about.en;
+    const sections = t.content;
 
     return (
         <>
@@ -16,22 +17,16 @@ export default function About() {
             </Head>
             <main>
                 <h1>{t.title}</h1>
-                <section className="my-4">
-                    <h2>{t.about.title}</h2>
-                    <p>{t.about.content}</p>
-                </section>
-                <section className="my-4">
-                    <h2>{t.purpose.title}</h2>
-                    <p>{t.purpose.content}</p>
-                </section>
-                <section className="my-4">
-                    <h2>{t.methods.title}</h2>
-                    <p>{t.methods.content}</p>
-                </section>
-                <section className="my-4">
-                    <h2>{t.price.title}</h2>
-                    <p>{t.price.content}</p>
-                </section>
+                <div>
+                    {sections.map(section => {
+                        return (
+                            <section className="my-6">
+                                <h2>{section.title}</h2>
+                                <p>{section.content}</p>
+                            </section>
+                        )
+                    })}
+                </div>
             </main>
         </>
     )
