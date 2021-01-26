@@ -2,13 +2,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 import { snippets } from '../../content'
+import { languages } from '../../data'
+import i18n from '../../lib/i18n'
 
 export default function Header() {
     const router = useRouter();
-    const t = 
-    router.locale === 'lu' ? snippets.lu : 
-    router.locale === 'de' ? snippets.de : 
-    router.locale === 'fr' ? snippets.fr : snippets.en;
+    const t = i18n(router.locale, snippets);
 
     const changeLanguage = (e) => {
         const locale = e.target.value;
@@ -46,10 +45,9 @@ export default function Header() {
                 defaultValue={router.locale}
                 className="self-center"
             >
-                <option value="en">EN</option>
-                <option value="fr">FR</option>
-                <option value="de">DE</option>
-                <option value="lu">LU</option>
+                {languages.map(language => {
+                    return <option value={language.short}>{language.flag} {language.short.toUpperCase()}</option>
+                })}
             </select>
         </nav>
     )

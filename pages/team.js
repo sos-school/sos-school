@@ -1,14 +1,12 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
 import { team } from '../content'
-import members from '../data/members.json'
+import { members } from '../data'
+import i18n from '../lib/i18n'
 
 export default function Team() {
     const router = useRouter();
-    const t = 
-    router.locale === 'lu' ? team.lu : 
-    router.locale === 'de' ? team.de : 
-    router.locale === 'fr' ? team.fr : team.en;
+    const t = i18n(router.locale, team);
 
     return (
         <>

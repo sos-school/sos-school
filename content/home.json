@@ -1,14 +1,18 @@
 {
     "en": {
-        
+        "title": "SOS School Luxembourg",
+        "description": "We are a student initiative founded by Mathis Oberlé. We seek to provide educational support to primary school children impacted by CoViD-19"
     },
     "fr": {
-
+        "title": "SOS École Luxembourg",
+        "description": "We are a student initiative founded by Mathis Oberlé. We seek to provide educational support to primary school children impacted by CoViD-19"
     },
     "de": {
-
+        "title": "SOS Schule Luxemburg",
+        "description": "We are a student initiative founded by Mathis Oberlé. We seek to provide educational support to primary school children impacted by CoViD-19"
     },
     "lu": {
-
+        "title": "SOS Schoul Lëtzebuerg",
+        "description": "We are a student initiative founded by Mathis Oberlé. We seek to provide educational support to primary school children impacted by CoViD-19"
     }
 }

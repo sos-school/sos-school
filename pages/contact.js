@@ -1,11 +1,11 @@
 import { useRouter } from 'next/router'
 import Head from 'next/head'
-import { home } from '../content'
+import { contact } from '../content'
 import i18n from '../lib/i18n'
 
-export default function Home() {
+export default function Contact() {
     const router = useRouter();
-    const t = i18n(router.locale, home);
+    const t = i18n(router.locale, contact);
 
     return (
         <>
@@ -13,9 +13,10 @@ export default function Home() {
                 <title>{t.title}</title>
             </Head>
             <main>
-                <h1 className="text-5xl my-10">{t.title}</h1>
-                <p>{t.description}</p>
-                
+                <h1>{t.title}</h1>
+                <div>
+                    {t.content}
+                </div>
             </main>
         </>
     )
