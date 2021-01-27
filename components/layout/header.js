@@ -1,13 +1,14 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import { useRouter } from 'next/router'
-import { snippets } from '../../content'
+import { snippets, pages } from '../../content'
 import { languages } from '../../data'
 import i18n from '../../lib/i18n'
 
 export default function Header() {
     const router = useRouter();
     const t = i18n(router.locale, snippets);
+    const p = i18n(router.locale, pages);
 
     const changeLanguage = (e) => {
         const locale = e.target.value;
@@ -23,20 +24,25 @@ export default function Header() {
                     height="48"
                 />
             </Link>
-            <ul className="hidden sm:flex justify-center space-x-4">
+            <ul className="hidden sm:flex justify-center space-x-8">
                 <li className="flex-grow self-center">
-                    <Link href="/about">
-                        <a>{t.about}</a>
+                    <Link href="/" as={p.home.id}>
+                        <a>{p.home.value}</a>
                     </Link>
                 </li>
                 <li className="flex-grow self-center">
-                    <Link href="/team">
-                        <a>{t.team}</a>
+                    <Link href="/about" as={p.about.id}>
+                        <a>{p.about.value}</a>
                     </Link>
                 </li>
                 <li className="flex-grow self-center">
-                    <Link href="/contact">
-                        <a>{t.contact}</a>
+                    <Link href="/team" as={p.team.id}>
+                        <a>{p.team.value}</a>
+                    </Link>
+                </li>
+                <li className="flex-grow self-center">
+                    <Link href="/contact" as={p.contact.id}>
+                        <a>{p.contact.value}</a>
                     </Link>
                 </li>
             </ul>

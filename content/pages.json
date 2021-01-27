@@ -1,0 +1,74 @@
+{
+    "en": {
+        "home": {
+            "id": "/",
+            "value": "Home"
+        },
+        "about": {
+            "id": "/about",
+            "value": "About Our Initiative"
+        },
+        "team": {
+            "id": "/team",
+            "value": "Our Team"
+        },
+        "contact": {
+            "id": "/contact",
+            "value": "Contact"
+        }
+    },
+    "fr": {
+        "home": {
+            "id": "/",
+            "value": "Accueil"
+        },
+        "about": {
+            "id": "/a-propos-de-nous",
+            "value": "À propos de notre initiative"
+        },
+        "team": {
+            "id": "/notre-equipe",
+            "value": "Notre Équipe"
+        },
+        "contact": {
+            "id": "/contact",
+            "value": "Contact"
+        }
+    },
+    "de": {
+        "home": {
+            "id": "/",
+            "value": "Heimseite"
+        },
+        "about": {
+            "id": "/ueber-uns",
+            "value": "Über unsere Initiative"
+        },
+        "team": {
+            "id": "/mitarbeiter",
+            "value": "Unsere Mitarbeiter"
+        },
+        "contact": {
+            "id": "/kontakt",
+            "value": "Kontakt"
+        }
+    },
+    "lu": {
+        "home": {
+            "id": "/",
+            "value": "Heemsäit"
+        },
+        "about": {
+            "id": "/iwwert-eis",
+            "value": "Iwwert eis Initiativ"
+        },
+        "team": {
+            "id": "/mataarbechter",
+            "value": "Ons Mataarbechter"
+        },
+        "contact": {
+            "id": "/kontakt",
+            "value": "Kontakt"
+        }
+    }
+}

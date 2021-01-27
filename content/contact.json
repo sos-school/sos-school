@@ -1,18 +1,18 @@
 {
     "en": {
         "title": "Contact us",
-        "content": "About Our Initiative"
+        "email": "If you wish to get in touch with us, you can do so via e-mail"
     },
     "fr": {
         "title": "Contactez-nous",
-        "content": "About Our Initiative"
+        "email": "Si vous voulez nous contacter, vous pouvez le faire par lettre électronique"
     },
     "de": {
-        "title": "Kontaktiert uns",
-        "content": "About Our Initiative"
+        "title": "Kontaktieren Sie uns",
+        "email": "Falls Sie uns kontaktieren wollt, können Sie uns per email kontaktieren"
     },
     "lu": {
         "title": "Kontaktéiert eis",
-        "content": "About Our Initiative"
+        "email": "Falls Dir eis kontaktéieren wéilt, kënnt dir dat per email maachen"
     }
 }

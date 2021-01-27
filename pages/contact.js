@@ -14,9 +14,12 @@ export default function Contact() {
             </Head>
             <main>
                 <h1>{t.title}</h1>
-                <div>
-                    {t.content}
-                </div>
+                <p>
+                    {t.email}:
+                </p>
+                <p className="text-center">
+                    <a href="mailto:contact@sos-school.org" className="text-green-400">contact@sos-school.org</a>
+                </p>
             </main>
         </>
     )

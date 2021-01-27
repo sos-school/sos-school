@@ -2,7 +2,8 @@
     "en": {
         "title": "Our Team",
         "description": "Our team is yet small, but we are growing in size.",
-        "recruit": "If you wish to join us, please get in touch"
+        "recruit": "If you wish to join us, please get in touch via email",
+        "guidance": ""
     },
     "fr": {
         "title": "Notre Équipe",

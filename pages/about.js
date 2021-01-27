@@ -17,7 +17,7 @@ export default function About() {
                 <div>
                     {t.content.map(section => {
                         return (
-                            <section className="my-6">
+                            <section className="my-8">
                                 <h2>{section.title}</h2>
                                 <p>{section.content}</p>
                             </section>
