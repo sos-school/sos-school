@@ -1,12 +1,7 @@
 {
     "en": {
         "title": "SOS School Luxembourg",
-        "pages": {
-            "home": "Home",
-            "about": "About Us",
-            "team": "Our Team",
-            "contact": "Contact"
-        },
+        "menu": "Menu",
         "notfound": {
             "title": "Page not found",
             "link": "Back to homepage"
@@ -18,12 +13,7 @@
     },
     "fr": {
         "title": "SOS École Luxembourg",
-        "pages": {
-            "home": "Accueil",
-            "about": "À Propos de Nous",
-            "team": "Notre Équipe",
-            "contact": "Contact"
-        },
+        "menu": "Menu",
         "notfound": {
             "title": "Page ne pas trouvée",
             "link": "Retourner à la page centrale"
@@ -35,12 +25,7 @@
     },
     "de": {
         "title": "SOS Schule Luxemburg",
-        "pages": {
-            "home": "Heimseite",
-            "about": "Über Uns",
-            "team": "Mitarbeiter",
-            "contact": "Kontakt"
-        },
+        "menu": "Menu",
         "notfound": {
             "title": "Seite nicht gefunden",
             "link": "Zurück zur Heimseite"
@@ -52,12 +37,7 @@
     },
     "lu": {
         "title": "SOS Schoul Lëtzebuerg",
-        "pages": {
-            "home": "Heimseite",
-            "about": "Iwwert Eis",
-            "team": "Eisen Team",
-            "contact": "Kontakt"
-        },
+        "menu": "Menu",
         "notfound": {
             "title": "Säit nët fonnt",
             "link": "Zeréck zur Heemsäit"
