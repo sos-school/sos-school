@@ -1,0 +1,54 @@
+{
+    "en": {
+        "title": "SOS School Luxembourg",
+        "menu": "Menu",
+        "notfound": {
+            "title": "Page not found",
+            "link": "Back to homepage"
+        },
+        "attr": {
+            "built": "Made by",
+            "date": "in the year",
+            "sponsor": "Supported by"
+        }
+    },
+    "fr": {
+        "title": "SOS École Luxembourg",
+        "menu": "Menu",
+        "notfound": {
+            "title": "Page ne pas trouvée",
+            "link": "Retourner à la page centrale"
+        },
+        "attr": {
+            "built": "Créé par",
+            "date": "dans l'année",
+            "sponsor": "Soutenu par"
+        }
+    },
+    "de": {
+        "title": "SOS Schule Luxemburg",
+        "menu": "Menu",
+        "notfound": {
+            "title": "Seite nicht gefunden",
+            "link": "Zurück zur Heimseite"
+        },
+        "attr": {
+            "built": "Gebaut von",
+            "date": "im Jahre",
+            "sponsor": "Unterstützt von"
+        }
+    },
+    "lu": {
+        "title": "SOS Schoul Lëtzebuerg",
+        "menu": "Menu",
+        "notfound": {
+            "title": "Säit nët fonnt",
+            "link": "Zeréck zur Heemsäit"
+        },
+        "attr": {
+            "built": "Gebaut vum",
+            "date": "am joer",
+            "sponsor": "Ënnerstëtzt vun"
+        }
+    }
+}
