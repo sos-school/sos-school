@@ -13,7 +13,7 @@ export default function Footer() {
                 <a href="https://nicobachner.com" className="text-blue-400"> Nico Bachner </a>
                 {t.attr.date} 2021
             </p>
-            <p>Hosted on <a href="https://vercel.com/?utm_source=sos-school&utm_campaign=oss" className="text-blue-400">Vercel</a></p>
+            <p>{t.attr.sponsor} <a href="https://vercel.com/?utm_source=sos-school&utm_campaign=oss" className="text-blue-400">Vercel</a></p>
         </footer>
     )
 }

@@ -55,8 +55,8 @@ export default function Header() {
                 defaultValue={router.locale}
                 className="hidden md:block self-center"
             >
-                {languages.map(language => {
-                    return <option value={language.short}>{language.flag} {language.short.toUpperCase()}</option>
+                {languages.map((language, key) => {
+                    return <option value={language.short} key={key}>{language.flag} {language.short.toUpperCase()}</option>
                 })}
             </select>
             <details className="md:hidden self-center">

@@ -8,7 +8,8 @@
         },
         "attr": {
             "built": "Made by",
-            "date": "in the year"
+            "date": "in the year",
+            "sponsor": "Supported by"
         }
     },
     "fr": {
@@ -20,7 +21,8 @@
         },
         "attr": {
             "built": "Créé par",
-            "date": "dans l'année"
+            "date": "dans l'année",
+            "sponsor": "Soutenu par"
         }
     },
     "de": {
@@ -32,7 +34,8 @@
         },
         "attr": {
             "built": "Gebaut von",
-            "date": "im Jahre"
+            "date": "im Jahre",
+            "sponsor": "Unterstützt von"
         }
     },
     "lu": {
@@ -44,7 +47,8 @@
         },
         "attr": {
             "built": "Gebaut vum",
-            "date": "am joer"
+            "date": "am joer",
+            "sponsor": "Ënnerstëtzt vun"
         }
     }
 }

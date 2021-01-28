@@ -7,8 +7,8 @@
         color-scheme: light dark;
     }
     main {
-        min-height: calc(100vh - 22em);
-        @apply max-w-prose px-6 mx-auto my-20;
+        min-height: calc(100vh - 20em);
+        @apply max-w-prose text-justify md:text-lg px-6 mx-auto my-20;
     }
     h1 {
         @apply text-center font-bold text-4xl my-12;
@@ -17,6 +17,6 @@
         @apply text-2xl my-6;
     }
     main p {
-        @apply my-4 text-justify md:text-lg;
+        @apply my-4;
     }
 }

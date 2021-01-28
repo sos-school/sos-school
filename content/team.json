@@ -1,23 +1,26 @@
 {
     "en": {
         "title": "Our Team",
-        "description": "Our team is yet small, but we are growing in size.",
-        "recruit": "If you wish to join us, please get in touch via email",
+        "description": "Our team is yet small, but we are in the process of expanding our team and recruiting new members. Here is a list of the current members:",
+        "recruit": "If you wish to join us, please get in touch via email.",
         "guidance": ""
     },
     "fr": {
         "title": "Notre Équipe",
-        "description": "Our team is yet small, but we are growing in size.",
-        "recruit": "If you wish to join us, please get in touch"
+        "description": "Notre équipe est encore plutot petit, mais nous sommes en traîn de recruter de nouvelles membres. Voici notre équipe actuelle:",
+        "recruit": "Si vous désirez nous joindre, vous pouvez nous contacter par lettre electronique.",
+        "guidance": ""
     },
     "de": {
         "title": "Unsere Mitarbeiter",
-        "description": "Our team is yet small, but we are growing in size.",
-        "recruit": "If you wish to join us, please get in touch"
+        "description": "Unser Team is noch relativ klein, aber wir sind im Gange, neue Mitglieder zu rekrutieren. Hier sind unsere aktuelle Mitglieder:",
+        "recruit": "Falls Sie interessiert sind, unser Team beizutreten, können Sie uns eine Email an die folgenden Adresse schicken:",
+        "guidance": ""
     },
     "lu": {
         "title": "Eisen Team",
-        "description": "Our team is yet small, but we are growing in size.",
-        "recruit": "If you wish to join us, please get in touch"
+        "description": "Eisen Team ass nach relativ kleng, mee mir sin am gaangen, nei memberen ze rekruteieren. Hei ass eisen aktuellen Team:",
+        "recruit": "Falls Dir interesseiert sidd, eisen Team bäizetrieden, kënnt Dir eis eng Email un dei folgendend Address schécken:",
+        "guidance": ""
     }
 }
