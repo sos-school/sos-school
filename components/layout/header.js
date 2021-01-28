@@ -25,15 +25,30 @@ function NavLinkDrop(props){
     )
 }
 
-export default function Header() {
+function LanguageSelect(props) {
     const router = useRouter();
-    const t = i18n(router.locale, snippets);
-    const p = i18n(router.locale, pages);
-
     const changeLanguage = (e) => {
         const locale = e.target.value;
         router.push(router.pathname, router.pathname, { locale })
     };
+
+    return (
+        <select
+            onChange={changeLanguage}
+            defaultValue={router.locale}
+            className={props.className}
+        >
+            {languages.map((language, key) => {
+                return <option value={language.short} key={key}>{language.flag} {language.short.toUpperCase()}</option>
+            })}
+        </select>
+    )
+}
+
+export default function Header() {
+    const router = useRouter();
+    const t = i18n(router.locale, snippets);
+    const p = i18n(router.locale, pages);
 
     return (
         <nav className="px-8 py-4 flex justify-between space-x-8">
@@ -50,23 +65,18 @@ export default function Header() {
                 <NavLinkBar href="/team" as={p.team.id}>{p.team.value}</NavLinkBar>
                 <NavLinkBar href="/contact" as={p.contact.id}>{p.contact.value}</NavLinkBar>
             </ul>
-            <select
-                onChange={changeLanguage}
-                defaultValue={router.locale}
-                className="hidden md:block self-center"
-            >
-                {languages.map((language, key) => {
-                    return <option value={language.short} key={key}>{language.flag} {language.short.toUpperCase()}</option>
-                })}
-            </select>
+            <LanguageSelect className="hidden md:block self-center" />
             <details className="md:hidden self-center">
                 <summary>{t.menu}</summary>
-                <ul className="absolute top-24 right-4 px-8 py-2 bg-blue-100 border rounded-xl">
-                    <NavLinkDrop href="/" as={p.home.id}>{p.home.value}</NavLinkDrop>
-                    <NavLinkDrop href="/about" as={p.about.id}>{p.about.value}</NavLinkDrop>
-                    <NavLinkDrop href="/team" as={p.team.id}>{p.team.value}</NavLinkDrop>
-                    <NavLinkDrop href="/contact" as={p.contact.id}>{p.contact.value}</NavLinkDrop>
-                </ul>
+                <div className="absolute top-24 right-4 px-8 py-2 bg-blue-100 border rounded-xl">
+                    <ul>
+                        <NavLinkDrop href="/" as={p.home.id}>{p.home.value}</NavLinkDrop>
+                        <NavLinkDrop href="/about" as={p.about.id}>{p.about.value}</NavLinkDrop>
+                        <NavLinkDrop href="/team" as={p.team.id}>{p.team.value}</NavLinkDrop>
+                        <NavLinkDrop href="/contact" as={p.contact.id}>{p.contact.value}</NavLinkDrop>
+                    </ul>
+                    <LanguageSelect className="my-4" />
+                </div>
             </details>
         </nav>
     )
