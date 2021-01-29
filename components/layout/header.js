@@ -53,7 +53,7 @@ export default function Header() {
             <LanguageSelect className="hidden md:block self-center" />
             <details className="md:hidden self-center">
                 <summary>{t.menu}</summary>
-                <div className="absolute top-24 right-4 px-8 py-2 bg-blue-100 border rounded-xl">
+                <div className="absolute top-24 right-4 px-8 py-2 bg-white border rounded-xl">
                     <ul>
                         {p.map(page => {
                             return (

@@ -12,10 +12,9 @@ export default function Home() {
             <Head>
                 <title>{t.title}</title>
             </Head>
-            <main className="pt-6">
+            <main className="md:pt-6">
                 <h1 className="text-5xl my-16">{t.title}</h1>
-                <p>{t.description}</p>
-                
+                <p>{t.content.description}</p>
             </main>
         </>
     )

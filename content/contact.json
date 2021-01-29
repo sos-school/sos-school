@@ -1,18 +1,30 @@
 {
     "en": {
         "title": "Contact us",
-        "email": "If you wish to get in touch with us, you can do so via the following e-mail address:"
+        "content": {
+            "email": "If you wish to get in touch with us, you can do so via the following e-mail address:",
+            "entice": "Feel free to ask us anything."
+        }
     },
     "fr": {
         "title": "Contactez-nous",
-        "email": "Si vous désirez nous contacter, vous pouvez le faire par lettre électronique à l'addresse suivante:"
+        "content": {
+            "email": "Si vous désirez nous contacter, vous pouvez le faire par lettre électronique à l'addresse suivante:",
+            "entice": "Vous pouvez nous demander tout ce que vouz voulez."
+        }
     },
     "de": {
         "title": "Kontaktieren Sie uns",
-        "email": "Falls Sie uns kontaktieren wollt, können Sie uns per der folgenden Email Adresse kontaktieren."
+        "content": {
+            "email": "Falls Sie uns kontaktieren wollt, können Sie uns per der folgenden content Adresse kontaktieren.",
+            "entice": "Sie können uns alles fragen."
+        }
     },
     "lu": {
         "title": "Kontaktéiert eis",
-        "email": "Falls Dir eis kontaktéieren wéilt, kënnt Dir dat per dei folgend email address maachen."
+        "content": {
+            "email": "Falls Dir eis kontaktéieren wéilt, kënnt Dir dat per dei folgend content address maachen.",
+            "entice": "Dir kënnt eis alles froen."
+        }
     }
 }
