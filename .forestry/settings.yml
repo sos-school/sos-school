@@ -4,10 +4,16 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
+- type: directory
+  path: content
+  label: translations
+  create: documents
+  match: "**/*"
+  exclude: "*.js"
+  new_doc_ext: ".json"
 - type: document
   path: content/team.json
   label: team
-  match: "**/*"
 - type: document
   path: content/about.json
   label: about
