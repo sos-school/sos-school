@@ -13,15 +13,26 @@ function LanguageSelect(props) {
     };
 
     return (
-        <select
-            onChange={changeLanguage}
-            defaultValue={router.locale}
-            className={props.className}
-        >
-            {languages.map((language, key) => {
-                return <option value={language.short} key={key}>{language.flag} {language.short.toUpperCase()}</option>
-            })}
-        </select>
+        <div className={props.className}>
+            <select
+                onChange={changeLanguage}
+                defaultValue={router.locale}
+                className="px-2 py-1 border"
+            >
+                {languages.map((language, key) => {
+                    return (
+                        <option 
+                            className="" 
+                            value={language.short} 
+                            key={key}
+                        >
+                            {language.flag}
+                            {language.short.toUpperCase()}
+                        </option>
+                    )
+                })}
+            </select>
+        </div>
     )
 }
 
@@ -52,7 +63,7 @@ export default function Header() {
             </ul>
             <LanguageSelect className="hidden md:block self-center" />
             <details className="md:hidden self-center">
-                <summary>{t.menu}</summary>
+                <summary className="border rounded-lg px-4 py-2">{t.menu}</summary>
                 <div className="absolute top-24 right-4 px-8 py-2 bg-white border rounded-xl">
                     <ul>
                         {p.map(page => {

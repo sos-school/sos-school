@@ -19,4 +19,8 @@
     main p {
         @apply my-4;
     }
+    select {
+        appearance: none;
+        display: inline;
+    }
 }
