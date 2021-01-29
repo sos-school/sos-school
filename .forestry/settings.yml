@@ -5,10 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: content/contact.json
+  label: contact
+  match: "**/*"
+- type: document
   path: content/home.json
   label: home
-  match: "**/*"
-  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
