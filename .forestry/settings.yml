@@ -5,9 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: content/about.json
+  label: about
+  match: "**/*"
+- type: document
   path: content/contact.json
   label: contact
-  match: "**/*"
 - type: document
   path: content/home.json
   label: home
