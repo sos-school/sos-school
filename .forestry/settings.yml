@@ -4,12 +4,14 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: content
-  label: translations
-  create: documents
-  match: "*.json"
-  new_doc_ext: ".json"
+- type: document
+  path: content/pages.json
+  label: pages
+  match: "**/*"
+- type: document
+  path: content/snippets.json
+  label: other
+  match: "**/*"
 - type: document
   path: content/team.json
   label: team
