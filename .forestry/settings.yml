@@ -8,8 +8,7 @@ sections:
   path: content
   label: translations
   create: documents
-  match: "**/*"
-  exclude: "*.js"
+  match: "*.json"
   new_doc_ext: ".json"
 - type: document
   path: content/team.json
