@@ -1,0 +1,56 @@
+---
+label: pages
+hide_body: true
+fields:
+- type: field_group_list
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: file
+    label: file
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: fr
+  label: fr
+  fields:
+  - type: text
+    name: file
+    label: file
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: de
+  label: de
+  fields:
+  - type: text
+    name: file
+    label: file
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
+- type: field_group_list
+  name: lu
+  label: lu
+  fields:
+  - type: text
+    name: file
+    label: file
+  - type: text
+    name: title
+    label: title
+  - type: text
+    name: url
+    label: url
