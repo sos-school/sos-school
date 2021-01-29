@@ -1,74 +1,90 @@
 {
-    "en": {
-        "home": {
-            "id": "/",
-            "value": "Home"
+    "en": [
+        {
+            "file": "/",
+            "title": "Home",
+            "url": "/"
         },
-        "about": {
-            "id": "/about",
-            "value": "About Our Initiative"
+        {
+            "file": "/about",
+            "title": "About Our Initiative",
+            "url": "/about"
         },
-        "team": {
-            "id": "/team",
-            "value": "Our Team"
+        {
+            "file": "/team",
+            "title": "Our Team",
+            "url": "/team"
         },
-        "contact": {
-            "id": "/contact",
-            "value": "Contact"
+        {
+            "file": "/contact",
+            "title": "Contact",
+            "url": "/contact"
         }
-    },
-    "fr": {
-        "home": {
-            "id": "/",
-            "value": "Accueil"
+    ],
+    "fr": [
+        {
+            "file": "/",
+            "title": "Accueil",
+            "url": "/"
         },
-        "about": {
-            "id": "/a-propos-de-nous",
-            "value": "À propos de notre initiative"
+        {
+            "file": "/about",
+            "title": "À propos de notre initiative",
+            "url": "/a-propos-de-nous"
         },
-        "team": {
-            "id": "/notre-equipe",
-            "value": "Notre Équipe"
+        {
+            "file": "/team",
+            "title": "Notre Équipe",
+            "url": "/notre-equipe"
         },
-        "contact": {
-            "id": "/contact",
-            "value": "Contact"
+        {
+            "file": "/contact",
+            "title": "Contact",
+            "url": "/contact"
         }
-    },
-    "de": {
-        "home": {
-            "id": "/",
-            "value": "Heimseite"
+    ],
+    "de": [
+        {
+            "file": "/",
+            "title": "Heimseite",
+            "url": "/"
         },
-        "about": {
-            "id": "/ueber-uns",
-            "value": "Über unsere Initiative"
+        {
+            "file": "/about",
+            "title": "Über unsere Initiative",
+            "url": "/ueber-uns"
         },
-        "team": {
-            "id": "/mitarbeiter",
-            "value": "Unsere Mitarbeiter"
+        {
+            "file": "/team",
+            "title": "Unsere Mitarbeiter",
+            "url": "/mitarbeiter"
         },
-        "contact": {
-            "id": "/kontakt",
-            "value": "Kontakt"
+        {
+            "file": "/contact",
+            "title": "Kontakt",
+            "url": "/kontakt"
         }
-    },
-    "lu": {
-        "home": {
-            "id": "/",
-            "value": "Heemsäit"
+    ],
+    "lu": [
+        {
+            "file": "/",
+            "title": "Heemsäit",
+            "url": "/"
         },
-        "about": {
-            "id": "/iwwert-eis",
-            "value": "Iwwert eis Initiativ"
+        {
+            "file": "/about",
+            "title": "Iwwert eis Initiativ",
+            "url": "/iwwert-eis"
         },
-        "team": {
-            "id": "/mataarbechter",
-            "value": "Ons Mataarbechter"
+        {
+            "file": "/team",
+            "title": "Ons Mataarbechter",
+            "url": "/mataarbechter"
         },
-        "contact": {
-            "id": "/kontakt",
-            "value": "Kontakt"
+        {
+            "file": "/contact",
+            "title": "Kontakt",
+            "url": "/kontakt"
         }
-    }
+    ]
 }
