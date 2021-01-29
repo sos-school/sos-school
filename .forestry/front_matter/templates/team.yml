@@ -1,0 +1,84 @@
+---
+label: Team
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: description
+      label: description
+    - type: text
+      name: recruit
+      label: recruit
+    - type: text
+      name: guidance
+      label: guidance
+- type: field_group
+  name: fr
+  label: fr
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: description
+      label: description
+    - type: text
+      name: recruit
+      label: recruit
+    - type: text
+      name: guidance
+      label: guidance
+- type: field_group
+  name: de
+  label: de
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: description
+      label: description
+    - type: textarea
+      name: recruit
+      label: recruit
+    - type: text
+      name: guidance
+      label: guidance
+- type: field_group
+  name: lu
+  label: lu
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group
+    name: content
+    label: content
+    fields:
+    - type: textarea
+      name: description
+      label: description
+    - type: textarea
+      name: recruit
+      label: recruit
+    - type: text
+      name: guidance
+      label: guidance
