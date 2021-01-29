@@ -1,0 +1,35 @@
+---
+new_page_extension: md
+auto_deploy: false
+admin_path: 
+webhook_url: 
+sections:
+- type: document
+  path: content/pages.json
+  label: pages
+- type: document
+  path: content/snippets.json
+  label: other
+- type: document
+  path: content/team.json
+  label: team
+- type: document
+  path: content/about.json
+  label: about
+- type: document
+  path: content/contact.json
+  label: contact
+- type: document
+  path: content/home.json
+  label: home
+upload_dir: uploads
+public_path: "/uploads"
+front_matter_path: ''
+use_front_matter_path: false
+file_template: ":filename:"
+build:
+  install_dependencies_command: npm install
+  preview_docker_image: forestryio/node:12
+  mount_path: "/srv"
+  working_dir: "/srv"
+  instant_preview_command: npm run develop

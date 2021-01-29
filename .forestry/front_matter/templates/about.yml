@@ -1,0 +1,72 @@
+---
+label: About
+hide_body: true
+fields:
+- type: field_group
+  name: en
+  label: en
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: content
+    label: content
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
+- type: field_group
+  name: fr
+  label: fr
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: content
+    label: content
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
+- type: field_group
+  name: de
+  label: de
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: content
+    label: content
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
+- type: field_group
+  name: lu
+  label: lu
+  fields:
+  - type: text
+    name: title
+    label: title
+  - type: field_group_list
+    name: content
+    label: content
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: textarea
+      name: content
+      label: content
