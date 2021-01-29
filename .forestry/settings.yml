@@ -4,12 +4,11 @@ auto_deploy: false
 admin_path: 
 webhook_url: 
 sections:
-- type: directory
-  path: "./content"
-  label: content
-  create: all
+- type: document
+  path: content/home.json
+  label: home
   match: "**/*"
-  new_doc_ext: "*.json"
+  read_only: false
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
