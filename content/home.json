@@ -7,14 +7,20 @@
     },
     "fr": {
         "title": "SOS École Luxembourg",
-        "description": "Nous sommes une initiative d'étudiants conçue par Mathis Oberlé. Notre équipe de jeunes sympas et motivés a une passion pour apprendre et nous voulons tous partager cette passion avec des autres."
+        "content": {
+            "description": "Nous sommes une initiative d'étudiants conçue par Mathis Oberlé. Notre équipe de jeunes sympas et motivés a une passion pour apprendre et nous voulons tous partager cette passion avec des autres."
+        }
     },
     "de": {
         "title": "SOS Schule Luxemburg",
-        "description": "Wir sind eine Studentenorganisation erstellt von Mathis Oberlé. Wir wollen denen Schülern in der Primärschule helfen, die durch CoViD-19 schulische Schwierigkeiten erlebt haben."
+        "content": {
+            "description": "Wir sind eine Studentenorganisation erstellt von Mathis Oberlé. Wir wollen denen Schülern in der Primärschule helfen, die durch CoViD-19 schulische Schwierigkeiten erlebt haben."
+        }
     },
     "lu": {
         "title": "SOS Schoul Lëtzebuerg",
-        "description": "Mir sin eng Studentenorganisation erstellt vum Mathis Oberlé. Mir wëllen déi Schüler an der Primärschoul hëllefen, déi duerch CoViD-19 schoulesch Schwierigkeeten erlieft hun."
+        "content": {
+            "description": "Mir sin eng Studentenorganisation erstellt vum Mathis Oberlé. Mir wëllen déi Schüler an der Primärschoul hëllefen, déi duerch CoViD-19 schoulesch Schwierigkeeten erlieft hun."
+        }
     }
 }
