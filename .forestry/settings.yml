@@ -7,11 +7,9 @@ sections:
 - type: document
   path: content/pages.json
   label: pages
-  match: "**/*"
 - type: document
   path: content/snippets.json
   label: other
-  match: "**/*"
 - type: document
   path: content/team.json
   label: team
