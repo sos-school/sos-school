@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }) {
         <>
             <Head>
                 <link rel="icon" href="/icon.png"/>
-                <meta name="description">We are a student initiative founded by Mathis Oberlé. Our team of young and motivated students seek to provide educational support to the primary school children most severely impacted by CoViD-19.</meta>
+                <meta name="description" content="We are a student initiative founded by Mathis Oberlé. Our team of young and motivated students seek to provide educational support to the primary school children most severely impacted by CoViD-19."></meta>
             </Head>
 
             <Header/>
