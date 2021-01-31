@@ -14,16 +14,17 @@ function LanguageSelect(props) {
 
     return (
         <div className={props.className}>
+            <label for="language" className="hidden">Change Language</label>
             <select
+                id="language"
                 onChange={changeLanguage}
                 defaultValue={router.locale}
                 className="px-2 py-1 border"
             >
                 {languages.map((language, key) => {
                     return (
-                        <option 
-                            className="" 
-                            value={language.short} 
+                        <option
+                            value={language.short}
                             key={key}
                         >
                             {language.flag}
@@ -48,6 +49,7 @@ export default function Header() {
                     src="/logo.png"
                     width="48"
                     height="48"
+                    alt="SOS School Logo"
                 />
             </Link>
             <ul className="hidden md:flex justify-center space-x-8">
@@ -66,9 +68,9 @@ export default function Header() {
                 <summary className="border rounded-lg px-4 py-2">{t.menu}</summary>
                 <div className="absolute top-24 right-4 px-8 py-2 bg-white border rounded-xl">
                     <ul>
-                        {p.map(page => {
+                        {p.map((page, index) => {
                             return (
-                                <li className="my-4">
+                                <li key={index} className="my-4">
                                     <Link href={page.file} as={page.url}>
                                         <a>{page.title}</a>
                                     </Link>

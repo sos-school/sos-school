@@ -16,7 +16,7 @@ export default function Contact() {
                 <h1>{t.title}</h1>
                 <p>{t.content.email}</p>
                 <p className="text-center">
-                    <a href="mailto:contact@sos-school.org" className="text-green-400">contact@sos-school.org</a>
+                    <a href="mailto:contact@sos-school.org" className="mail">contact@sos-school.org</a>
                 </p>
                 <p>{t.content.entice}</p>
             </main>

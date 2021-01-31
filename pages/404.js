@@ -16,7 +16,7 @@ export default function Custom404() {
             <main>
                 <h1 className="text-5xl pt-20">404 - {t.notfound.title}</h1>
                 <p className="text-center text-2xl">
-                    <Link href="/"><a className="text-blue-400">{t.notfound.link}</a></Link>
+                    <Link href="/"><a className="link">{t.notfound.link}</a></Link>
                 </p>
             </main>
         </>

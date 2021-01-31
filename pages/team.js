@@ -23,7 +23,7 @@ export default function Team() {
                 </ul>
                 <p>{t.content.recruit}</p>
                 <p className="text-center">
-                    <a href="mailto:apply@sos-school.org" className="text-green-400">apply@sos-school.org</a>
+                    <a href="mailto:apply@sos-school.org" className="mail">apply@sos-school.org</a>
                 </p>
                 <p>{t.content.guidance}</p>
             </main>

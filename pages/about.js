@@ -14,16 +14,14 @@ export default function About() {
             </Head>
             <main>
                 <h1>{t.title}</h1>
-                <div>
-                    {t.content.map(section => {
-                        return (
-                            <section className="my-8">
-                                <h2>{section.title}</h2>
-                                <p>{section.content}</p>
-                            </section>
-                        )
-                    })}
-                </div>
+                {t.content.map(section => {
+                    return (
+                        <section className="my-8">
+                            <h2>{section.title}</h2>
+                            <p>{section.content}</p>
+                        </section>
+                    )
+                })}
             </main>
         </>
     )

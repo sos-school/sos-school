@@ -10,10 +10,10 @@ export default function Footer() {
         <footer className="p-7 text-center leading-relaxed">
             <p>
                 {t.attr.built} 
-                <a href="https://nicobachner.com" className="text-blue-400"> Nico Bachner </a>
+                <a href="https://nicobachner.com" className="link"> Nico Bachner </a>
                 {t.attr.date} 2021
             </p>
-            <p>{t.attr.sponsor} <a href="https://vercel.com/?utm_source=sos-school&utm_campaign=oss" className="text-blue-400">Vercel</a></p>
+            <p>{t.attr.sponsor} <a href="https://vercel.com/?utm_source=sos-school&utm_campaign=oss" className="link">Vercel</a></p>
         </footer>
     )
 }
