@@ -14,9 +14,9 @@ function LanguageSelect(props) {
 
     return (
         <div className={props.className}>
-            <label for="language" className="hidden">Change Language</label>
+            <label for={props.id} className="hidden">Change Language</label>
             <select
-                id="language"
+                id={props.id}
                 onChange={changeLanguage}
                 defaultValue={router.locale}
                 className="px-2 py-1 border"
@@ -63,7 +63,7 @@ export default function Header() {
                     )
                 })}
             </ul>
-            <LanguageSelect className="hidden md:block self-center" />
+            <LanguageSelect id="language-bar" className="hidden md:block self-center" />
             <details className="md:hidden self-center">
                 <summary className="border rounded-lg px-4 py-2">{t.menu}</summary>
                 <div className="absolute top-24 right-4 px-8 py-2 bg-white border rounded-xl">
@@ -78,7 +78,7 @@ export default function Header() {
                             )
                         })}
                     </ul>
-                    <LanguageSelect className="my-4" />
+                    <LanguageSelect id="language-drop" className="my-4" />
                 </div>
             </details>
         </nav>
