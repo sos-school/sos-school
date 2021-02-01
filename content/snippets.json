@@ -9,7 +9,8 @@
         "attr": {
             "built": "Made by",
             "date": "in the year",
-            "sponsor": "Supported by"
+            "opensource": "This site is",
+            "support": "and supported by"
         }
     },
     "fr": {
@@ -22,7 +23,8 @@
         "attr": {
             "built": "Créé par",
             "date": "dans l'année",
-            "sponsor": "Soutenu par"
+            "opensource": "Ce site est",
+            "support": "et soutenu par"
         }
     },
     "de": {
@@ -35,7 +37,8 @@
         "attr": {
             "built": "Gebaut von",
             "date": "im Jahre",
-            "sponsor": "Unterstützt von"
+            "opensource": "Diese Seite ist",
+            "support": "und unterstützt von"
         }
     },
     "lu": {
@@ -48,7 +51,8 @@
         "attr": {
             "built": "Gebaut vum",
             "date": "am joer",
-            "sponsor": "Ënnerstëtzt vun"
+            "opensource": "Dës Säit ass",
+            "support": "an ënnerstëtzt vun"
         }
     }
 }
