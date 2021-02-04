@@ -9,8 +9,8 @@
         "release": "standard-version"
     },
     "dependencies": {
-        "autoprefixer": "^10.2.3",
-        "next": "10.0.5",
+        "autoprefixer": "^10.2.4",
+        "next": "10.0.6",
         "postcss": "^8.2.4",
         "react": "17.0.1",
         "react-dom": "17.0.1",
